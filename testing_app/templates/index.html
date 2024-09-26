@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Flask!</title>
+</head>
+<body>
+    <h1>Enter Your Name</h1>
+    <input type="text" id="nameInput" placeholder="Your name">
+    <button onclick="submitName()">Submit</button>
+
+    <div id="responseMessage"></div>
+
+    <script>
+        function submitName() 
+        {
+            const name = document.getElementById('nameInput').value;  // Get the input value
+
+            if (name === "") 
+            {
+                alert("Please enter your name!");
+                return;
+            }
+
+            fetch('/submit', 
+            {
+                method: 'POST',
+                headers: 
+                {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name: name })  // Send the name in JSON format
+            })
+            .then(response => 
+            {
+                if (!response.ok) 
+                {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();  // Expect JSON in response
+            })
+            .then(data => 
+            {
+                document.getElementById('responseMessage').innerText = data.message;  // Display the message
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
