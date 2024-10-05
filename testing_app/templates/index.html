@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing Flask!</title>
+    <title>Testing Flask with Search and Checklist!</title>
 </head>
 <body>
     <h1>Enter Your Name</h1>
@@ -12,37 +12,139 @@
 
     <div id="responseMessage"></div>
 
-    <script>
-        function submitName() 
-        {
-            const name = document.getElementById('nameInput').value;  // Get the input value
+    <h2>Search</h2>
+    <input type="text" id="searchInput" placeholder="Search term">
+    <button onclick="search()">Search</button>
 
-            if (name === "") 
-            {
+    <div id="searchResult"></div>
+
+    <h2>Daily Checklist</h2>
+    <div>
+        <strong>Checked Items Count: <span id="checkedCount">0</span></strong>
+    </div>
+    <ul id="checklist">
+        <li><input type="checkbox" id="task1" onchange="updateCount()"> Task 1: Morning exercise</li>
+        <li><input type="checkbox" id="task2" onchange="updateCount()"> Task 2: Read a chapter of a book</li>
+        <li><input type="checkbox" id="task3" onchange="updateCount()"> Task 3: Code for 1 hour</li>
+        <li><input type="checkbox" id="task4" onchange="updateCount()"> Task 4: Review notes</li>
+        <li><input type="checkbox" id="task5" onchange="updateCount()"> Task 5: Plan tomorrow's tasks</li>
+    </ul>
+
+    <button onclick="saveChecklist()">Save Checklist</button>
+
+    <div id="checklistStatus"></div>
+
+    <script>
+        function submitName() {
+            const name = document.getElementById('nameInput').value;
+
+            if (name === "") {
                 alert("Please enter your name!");
                 return;
             }
 
-            fetch('/submit', 
-            {
+            fetch('/submit', {
                 method: 'POST',
-                headers: 
-                {
+                headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ name: name })  // Send the name in JSON format
+                body: JSON.stringify({ name: name })
             })
-            .then(response => 
-            {
-                if (!response.ok) 
-                {
+            .then(response => {
+                if (!response.ok) {
                     throw new Error("Network response was not ok");
                 }
-                return response.json();  // Expect JSON in response
+                return response.json();
             })
-            .then(data => 
-            {
-                document.getElementById('responseMessage').innerText = data.message;  // Display the message
+            .then(data => {
+                document.getElementById('responseMessage').innerText = data.message;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function search() 
+        {
+            const searchTerm = document.getElementById('searchInput').value;
+
+            if (searchTerm === "") {
+                alert("Please enter a search term!");
+                return;
+            }
+
+            fetch('/search', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ searchTerm: searchTerm })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.json().then(data => {
+                        throw new Error(data.result);  // Get the error message from JSON
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Clear previous results
+                const searchResultDiv = document.getElementById('searchResult');
+                searchResultDiv.innerHTML = '';  // Clear existing content
+
+                // Display the search results
+                data.result.forEach(item => {
+                    const resultItem = document.createElement('div');
+                    resultItem.innerText = `Name: ${item.Name}, Age: ${item.Age}, Occupation: ${item.Occupation}, City: ${item.City}`;
+                    searchResultDiv.appendChild(resultItem);
+                });
+            })
+            .catch(error => {
+                const searchResultDiv = document.getElementById('searchResult');
+                searchResultDiv.innerHTML = '';  // Clear existing content
+                searchResultDiv.innerText = error.message;  // Show error message
+            });
+        }
+
+        function updateCount() {
+            // Get all checkboxes in the checklist
+            const checkboxes = document.querySelectorAll('#checklist input[type="checkbox"]');
+            let count = 0;
+
+            // Count how many checkboxes are checked
+            checkboxes.forEach((checkbox) => {
+                if (checkbox.checked) {
+                    count++;
+                }
+            });
+
+            // Update the counter display
+            document.getElementById('checkedCount').innerText = count;
+        }
+
+        function saveChecklist() {
+            const checklist = {
+                task1: document.getElementById('task1').checked,
+                task2: document.getElementById('task2').checked,
+                task3: document.getElementById('task3').checked,
+                task4: document.getElementById('task4').checked,
+                task5: document.getElementById('task5').checked,
+            };
+
+            fetch('/save_checklist', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ checklist: checklist })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('checklistStatus').innerText = "Checklist saved successfully!";
             })
             .catch(error => console.error('Error:', error));
         }
