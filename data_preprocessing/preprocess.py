@@ -41,7 +41,7 @@ df = df.drop(columns='iamfloc')
 
 #extracting road names and appending zip codes
 # def get_zip_code_from_road(road):
-#     api_key = 'AIzaSyBvK-9gnEPbxgcqAJTYKby_DVRrap9yr9o'  # Your actual Google Maps API key
+#     api_key = ''  # Your actual Google Maps API key
 #     try:
 #         time.sleep(0.5)  # Delay to avoid hitting API rate limits
 #         response = requests.get(f'https://maps.googleapis.com/maps/api/geocode/json?address={road},+San+Diego&key={api_key}')
