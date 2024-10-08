@@ -1,0 +1,10 @@
+field,field_type,description,possible_values
+objectid,Integer,Unique identifier,
+rd20full,String,Road name,
+length_mi,Float,Length in miles,
+class,String,Classification name,"Class I: Paved right-of-way for exclusive use by bicyclists, pedestrians and those using non-motorized modes of travel. They are physically separated from vehicular traffic and can be constructed in roadway right-of-way or exclusive right-of-way; Class2: One-way facilities on either side of a roadway with pavement striping and signage used to allocate a portion of a roadway for exclusive or preferential bicycle travel; Class3: Shared use with motor vehicle traffic within the same travel lane. Designated by signs; Class4_OneWay: Exclusive bike facility physically separated from motor traffic and distinct from the sidewalk; Class4_TwoWay: Exclusive bike facility physically separated from motor traffic and distinct from the sidewalk."
+xstrt1,String,Cross street 1,
+xstrt2,String,Cross street 2,
+district,String,Council District,
+sapid,String,Legacy City asset id,
+iamfloc,String,City asset id,
