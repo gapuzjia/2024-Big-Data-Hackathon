@@ -41,25 +41,25 @@ df = df.drop(columns='iamfloc')
 
 #extracting road names and appending zip codes
 # def get_zip_code_from_road(road):
-#     api_key = ''  # Your actual Google Maps API key
-#     try:
-#         time.sleep(0.5)  # Delay to avoid hitting API rate limits
-#         response = requests.get(f'https://maps.googleapis.com/maps/api/geocode/json?address={road},+San+Diego&key={api_key}')
-#         if response.status_code == 200:
-#             data = response.json()
-#             if data['results']:
-#                 for component in data['results'][0]['address_components']:
-#                     if 'postal_code' in component['types']:
-#                         return component['long_name']
-#         return None  # Return None if zip code is not found
-#     except Exception as e:
-#         print(f"Error fetching data for {road}: {e}")
-#         return None
+#      api_key = ''
+#      try:
+#          time.sleep(0.5)
+#          response = requests.get(f'https://maps.googleapis.com/maps/api/geocode/json?address={road},+San+Diego&key={api_key}')
+#          if response.status_code == 200:
+#              data = response.json()
+#              if data['results']:
+#                  for component in data['results'][0]['address_components']:
+#                      if 'postal_code' in component['types']:
+#                          return component['long_name']
+#          return None
+#      except Exception as e:
+#          print(f"Error fetching data for {road}: {e}")
+#          return None
 
 # total_roads = len(df)
 # for index, road in enumerate(df['rd20full']):
 #     print(f"Processing road {index + 1} of {total_roads}: {road}")
 #     df.at[index, 'zip'] = get_zip_code_from_road(road)
 
-df.to_csv('../testing_app/BikeRoutes.csv', index=False)
+# df.to_csv('../testing_app/BikeRoutes.csv', index=False)
 
