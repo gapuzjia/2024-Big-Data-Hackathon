@@ -1,0 +1,9 @@
+field,field_type,description,possible_values
+objectid,Integar,Unique identifier,
+name,String,Library name,
+address,String,Library address,
+city,String,Library city,
+zip,String,Library ZIP,
+phone,String,Library phone number,
+website,String,Library website,
+tb,String,Thomas Brother Map Book page and grid,
