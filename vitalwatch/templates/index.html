@@ -50,10 +50,11 @@
                <button type="button">Change color scheme</button>
             </div>
             <div>
-               <!-- Search bar replacing the zip image -->
-               <input type="text" id="search-bar" placeholder="Search here..." style="padding: 5px; margin-top: 10px;">
-               <button type="button" id="search-button" style="padding: 5px;">Search</button>
-
+               <!-- Search bar for zip code -->
+               <form action="/search" method="POST">
+                  <input type="text" name="query" placeholder="Enter a Zip Code" required>
+                  <button type="submit">Go!</button>
+              </form>
                <img id="map" src="https://islandmapstore.com/wp-content/uploads/2023/08/SAN-DIEGO-BAY-CROP-jpg.webp" width="200" height="200">
             </div>
          </div>
