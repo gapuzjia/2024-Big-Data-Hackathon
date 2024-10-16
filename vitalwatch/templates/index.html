@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <main>
+        <div id="menu_bar">
+            <button class="home" type="button">Home</button>
+            <div class="dropdown">
+                <button class="resource" type="button" onclick="toggleDropdown()">Resources</button>
+                <ul class="dropdown-content">
+                    <li><a href="resource1.html">Resource 1</a></li>
+                    <li><a href="resource2.html">Resource 2</a></li>
+                    <li><a href="resource3.html">Resource 3</a></li>
+                </ul>
+            </div>
+            <button class="rewards" type="button">Rewards</button>
+            <button class="help" type="button">?</button>
+        </div>
+
+
+        <!-- Progress bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <!-- Table for both activities and health goals -->
+        <div class="row">
+            <div class="column">
+                <!-- Table for daily health goals -->
+                <table>
+                    <caption>Your Daily Health Goals</caption>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="goal1" onclick="updateProgress()">
+                            <label for="goal1">Eat healthier</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="goal2" onclick="updateProgress()">
+                            <label for="goal2">Exercise more</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column">
+                <!-- Table for Activities for you -->
+                <table>
+                    <caption>Activities for You</caption>
+                    <tr class="dropdown">
+                        <td>Local</td>
+                        <td>
+                            <ul class="dropdown-content">
+                                <li><a href="local1.html">Pharmacy</a></li>
+                                <li><a href="local2.html">Fitness Centers</a></li>
+                                <li><a href="local3.html">Community Events</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="dropdown">
+                        <td>Regional</td>
+                        <td>
+                            <ul class="dropdown-content">
+                                <li><a href="regional1.html">National Parks</a></li>
+                                <li><a href="regional2.html">Restaurants</a></li>
+                                <li><a href="regional3.html">State Museums</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Bottom chunk after tables which includes the music, color button, zipcode and map -->
+        <div id="last">
+            <div id="lowerPart">
+                <img id="music" src="https://t3.ftcdn.net/jpg/05/03/75/98/360_F_503759828_kadMu7Zxbk9jNrZE1JjFfVwkkgxqe6KS.jpg" width="145" height="75">
+                <button type="button">Change color scheme</button>
+            </div>
+            <div>
+                <img id="zip" src="https://stlbsa.org/wp-content/uploads/2020/10/Screen-Shot-2020-10-22-at-3.00.46-PM.png" width="145" height="75">
+                <img id="map" src="https://islandmapstore.com/wp-content/uploads/2023/08/SAN-DIEGO-BAY-CROP-jpg.webp" width="200" height="200">
+            </div>
+        </div>
+   </main>
+   <script>
+    function toggleDropdown() {
+        const dropdownContent = document.querySelector('.dropdown-content');
+        // Toggle display between 'block' and 'none'
+        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.resource')) {
+            const dropdowns = document.getElementsByClassName("dropdown-content");
+            for (let i = 0; i < dropdowns.length; i++) {
+                const openDropdown = dropdowns[i];
+                if (openDropdown.style.display === 'block') {
+                    openDropdown.style.display = 'none';
+                }
+            }
+        }
+    }
+</script>
+
+   <script src="script.js"></script>
+</body>
+</html>
