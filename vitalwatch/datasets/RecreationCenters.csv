@@ -1,4 +1,4 @@
-objectid,rec_bldg,park_name,address,zip,adult_ctr,comfort_st,comp_room,dance_rm,game_room,gymnasium,kiln,kiln_room,kitchen,multi_purp,racquetbll,stage,teen_ctr,tinytot_rm,weight_rm,cd,neighborhd
+objectid,Center,park_name,Address,Zip Code,adult_ctr,comfort_st,comp_room,dance_rm,game_room,gymnasium,kiln,kiln_room,kitchen,multi_purp,racquetbll,stage,teen_ctr,tinytot_rm,weight_rm,cd,neighborhd
 1,Bay TerracesCommunity & Senior Center,Bay Terraces CP,7445 Tooma St,92139,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,4,BAY TERRACES
 2,Park de la Cruz Gymnasium & Community Center,Park de la Cruz Neighbohood Park,3901 Landis Steet St,92105,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,1.0,9,CITY HEIGHTS
 3,San Ysidro Teen Center,San Ysidro CP,101 W. San Ysidro Blvd.,92173,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,8,SAN YSIDRO
