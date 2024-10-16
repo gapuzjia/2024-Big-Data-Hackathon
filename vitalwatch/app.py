@@ -14,10 +14,10 @@ datasets = {
 
 # Define columns to return for each dataset
 column_mapping  = {
-    'dataset1': ['rd20full', 'xstrt1', 'zip'],
-    'dataset2': ['location', '10.6 Street Address', '10.7 City', '10.8 Zip Code'],
-    'dataset3': ['name', 'location'],
-    'dataset4': ['rec_bldg', 'address', 'zip']
+    'dataset1': ['Road', 'Exit Street', 'Zip Code'],
+    'dataset2': ['Location', 'Address','Zip Code'],
+    'dataset3': ['Park', 'Location', 'Zip Code'],
+    'dataset4': ['Center', 'Address', 'Zip Code']
 }
 
 @app.route('/')
@@ -28,9 +28,16 @@ def home():
 def resources():
     return render_template('resources.html')
 
+# Load prizes from CSV
+prizes_df = pd.read_csv('datasets/Prizes.csv')  # Adjust path as necessary
+
 @app.route('/rewards')
 def rewards():
-    return render_template('rewards.html')
+    # Load prizes from CSV
+    prizes_df = pd.read_csv('datasets/Prizes.csv')  # Adjust the path as needed
+    prizes = prizes_df['Prize'].tolist()  # Assuming 'Prize' is the column name
+    return render_template('rewards.html', prizes=prizes)
+
 
 @app.route('/search', methods=['GET', 'POST'])
 def search():

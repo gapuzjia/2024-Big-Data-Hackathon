@@ -29,29 +29,29 @@ df = df.drop(columns='source_id')
 df = df.drop(columns='source')
 df = df.drop(columns='source_dt')
 df = df.drop(columns='src_notes')
-
-def get_zip_code_from_park(park_name):
-    api_key = 'AIzaSyBvK-9gnEPbxgcqAJTYKby_DVRrap9yr9o' 
-    try:
-        time.sleep(0.5)  # Sleep to avoid hitting the API rate limit
-        response = requests.get(f'https://maps.googleapis.com/maps/api/geocode/json?address={park_name},+San+Diego&key={api_key}')
-        if response.status_code == 200:
-            data = response.json()
-            if data['results']:
-                for component in data['results'][0]['address_components']:
-                    if 'postal_code' in component['types']:
-                        return component['long_name']
-        return None
-    except Exception as e:
-        print(f"Error fetching data for {park_name}: {e}")
-        return None
-
-total_parks = len(df)
-for index, park_name in enumerate(df['name']):  # Replace 'park_name_column' with your actual column name
-    print(f"Processing park {index + 1} of {total_parks}: {park_name}")
-    df.at[index, 'zip'] = get_zip_code_from_park(park_name)
-
 df.to_csv('../testing_app/Parks.csv', index=False)
+
+# def get_zip_code_from_park(park_name):
+#     api_key = 'AIzaSyBvK-9gnEPbxgcqAJTYKby_DVRrap9yr9o' 
+#     try:
+#         time.sleep(0.5)  # Sleep to avoid hitting the API rate limit
+#         response = requests.get(f'https://maps.googleapis.com/maps/api/geocode/json?address={park_name},+San+Diego&key={api_key}')
+#         if response.status_code == 200:
+#             data = response.json()
+#             if data['results']:
+#                 for component in data['results'][0]['address_components']:
+#                     if 'postal_code' in component['types']:
+#                         return component['long_name']
+#         return None
+#     except Exception as e:
+#         print(f"Error fetching data for {park_name}: {e}")
+#         return None
+
+# total_parks = len(df)
+# for index, park_name in enumerate(df['name']):  # Replace 'park_name_column' with your actual column name
+#     print(f"Processing park {index + 1} of {total_parks}: {park_name}")
+#     df.at[index, 'zip'] = get_zip_code_from_park(park_name)
+
 
 
 #BIKE ROUTES
