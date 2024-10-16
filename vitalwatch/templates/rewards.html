@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <title>Search Datasets</title>
 </head>
 <body>
-    <!--header bar for website with buttons to direct user to the correct page-->
-    <div id="menu_bar">
-        <a href="/" class="button">Home</a>
-        <a href="/resources" class="button">Resources</a>
-        <a href="/rewards" class="button">Rewards</a> <!-- Link to Rewards page -->
-        <a href="/help" class="button">?</a>
-     </div>
-   
+    <div class="wheel-container">
+        <canvas id="wheelCanvas" width="600" height="600"></canvas>
+        <button id="spinButton">Spin the Wheel!</button>
+        <div id="result-text" class="result-text"></div>
+    </div>    
+
+    <script id="prize-data" type="application/json">
+        {{ prizes | tojson | safe }}
+    </script>
+
+    <!-- Including the external script file where you use the prizeList variable -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- Include the main JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
