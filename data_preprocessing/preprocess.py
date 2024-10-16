@@ -169,7 +169,7 @@ import csv
 from datetime import datetime
 
 # # Your Eventbrite API Key
-# API_KEY = 'RBDE3E4J5R4CDLRVVT45'  # Replace with your actual API key
+# API_KEY =   # Replace with your actual API key
 # API_URL = 'https://www.eventbriteapi.com/v3/events/search/'
 
 # # Parameters for the Eventbrite API query
