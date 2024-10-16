@@ -7,58 +7,64 @@
     <title>Search Datasets</title>
 </head>
 <body>
+    <!--header bar for website with buttons to direct user to the correct page-->
+    <div id="menu_bar">
+        <a href="/" class="button">Home</a>
+        <a href="/resources" class="button">Resources</a>
+        <a href="/rewards" class="button">Rewards</a> <!-- Link to Rewards page -->
+        <a href="/help" class="button">?</a>
+     </div>
     <h1>Search Datasets</h1>
     <form action="/search" method="POST">
         <input type="text" name="query" placeholder="Search..." required>
         <button type="submit">Search</button>
     </form>
-
-    <a href="/">Back to Home</a>
     
     {% if results %}
-        <h2>Search Results for "{{ query }}"</h2>
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-            {% for dataset_name, result in results.items() %}
-                <div>
-                    <h3>
-                        {% if dataset_name == 'dataset1' %}
-                            Bike Routes
-                        {% elif dataset_name == 'dataset2' %}
-                            Libraries
-                        {% elif dataset_name == 'dataset3' %}
-                            Parks
-                        {% elif dataset_name == 'dataset4' %}
-                            Recreation Centers
-                        {% else %}
-                            {{ dataset_name }}
-                        {% endif %}
-                    </h3>
-                    {% if result.empty %}
-                        <p>No results found.</p>
+    <h2>Search Results for "{{ query }}"</h2>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+        {% for dataset_name, result in results.items() %}
+            <div>
+                <h3>
+                    {% if dataset_name == 'dataset1' %}
+                        Bike Routes
+                    {% elif dataset_name == 'dataset2' %}
+                        Libraries
+                    {% elif dataset_name == 'dataset3' %}
+                        Parks
+                    {% elif dataset_name == 'dataset4' %}
+                        Recreation Centers
                     {% else %}
-                        <table border="1">
-                            <thead>
+                        {{ dataset_name }}
+                    {% endif %}
+                </h3>
+                {% if result.empty %}
+                    <p>No results found.</p>
+                {% else %}
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                {% for column in column_mapping[dataset_name] %} <!-- Accessing column mapping -->
+                                    <th>{{ column }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for index in result.index %}
                                 <tr>
-                                    {% for column in result.columns %}
-                                        <th>{{ column }}</th>
+                                    {% for column in column_mapping[dataset_name] %} <!-- Use the same mapping here -->
+                                        <td>{{ result.at[index, column] }}</td>
                                     {% endfor %}
                                 </tr>
-                            </thead>
-                            <tbody>
-                                {% for index in result.index %}
-                                    <tr>
-                                        {% for item in result.loc[index] %}
-                                            <td>{{ item }}</td>
-                                        {% endfor %}
-                                    </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
-                    {% endif %}
-                </div>
-            {% endfor %}
-        </div>
-    {% endif %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
    
 </body>
 </html>
