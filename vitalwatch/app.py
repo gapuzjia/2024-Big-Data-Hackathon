@@ -37,6 +37,22 @@ prizes = prizes_df['Prize'].tolist()  # Assuming 'Prize' is the column name
 def rewards():
     return render_template('rewards.html', prizes=prizes)
 
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
+@app.route('/museums')
+def museums():
+    return render_template('museums.html')
+
+@app.route('/events')
+def events():
+    return render_template('events.html')
+
+@app.route('/restaurants')
+def restaurants():
+    return render_template('restaurants.html')
+
 
 @app.route('/search', methods=['GET', 'POST'])
 def search():
