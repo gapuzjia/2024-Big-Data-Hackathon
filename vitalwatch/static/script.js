@@ -11,11 +11,13 @@ let spinAngle = 0;
 let spinning = false;
 
 // Function to draw the wheel with prizes
-function drawWheel() {
+function drawWheel() 
+{
     // Clear the canvas before drawing
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
-    for (let i = 0; i < prizeList.length; i++) {
+    for (let i = 0; i < prizeList.length; i++) 
+    {
         const angle = startAngle + i * arcSize;
         ctx.beginPath();
         ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, angle, angle + arcSize);
@@ -42,8 +44,10 @@ function drawWheel() {
 }
 
 // Function to spin the wheel
-function spinWheel() {
-    if (!spinning) {
+function spinWheel() 
+{
+    if (!spinning) 
+    {
         spinning = true;
         spinAngle = Math.random() * 2000 + 1000; // Random spin angle between 1000 and 3000 degrees
         animateSpin();
@@ -51,21 +55,25 @@ function spinWheel() {
 }
 
 // Function to animate the spinning of the wheel
-function animateSpin() {
+function animateSpin() 
+{
     spinAngle *= 0.97; // Slow down the spin over time
     startAngle += spinAngle * Math.PI / 180; // Rotate the wheel
     drawWheel();
 
-    if (spinAngle > 0.1) {
+    if (spinAngle > 0.1) 
+    {
         requestAnimationFrame(animateSpin);
-    } else {
+    } else 
+    {
         spinning = false;
         determinePrize();
     }
 }
 
 // Function to determine which prize the user has won
-function determinePrize() {
+function determinePrize() 
+{
     const winningIndex = Math.floor((startAngle % (2 * Math.PI)) / arcSize);
     const selectedPrize = prizeList[prizeList.length - 1 - winningIndex];
     alert(`Congratulations! You won: ${selectedPrize}`);
