@@ -170,6 +170,37 @@ tr:hover {
     background-color: #b0e5ff; /* Light blue highlight on hover */
 }
 
+.activity-buttons {
+    display: flex;
+    flex-direction: column; /* Stack button container vertically */
+    gap: 20px; /* Space between the button container and buttons */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    width: 100%; /* Full width of the parent column */
+}
+
+.large-button {
+    width: 100%; /* Each button takes up nearly half the width */
+    height: 200px; /* Height of the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Slightly rounded corners */
+    font-size: 20px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.large-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
 /* #WHEEL ----------------*/
 .wheel-container {
     display: flex;
@@ -235,6 +266,37 @@ input[type="checkbox"]:checked + label {
     padding: 2px;
     white-space: nowrap;
 }
+
+/* Container for the wheel and information sections */
+#container {
+    display: flex;
+    justify-content: space-between; /* Space between the wheel and info */
+    padding: 20px; /* Add some padding around the container */
+}
+
+/* Wheel container styles */
+.wheel-container {
+    flex: 1; /* Takes up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Info container styles */
+.info-container {
+    flex: 1; /* Takes up available space */
+    background-color: #D4FFFD; /* Background color */
+    padding: 20px; /* Space inside the info container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Prize list styles */
+#prizeList {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
 
 /* END WHEEL------------------- */
 
