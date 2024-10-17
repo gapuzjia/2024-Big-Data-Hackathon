@@ -7,17 +7,15 @@ app = Flask(__name__)
 # Load all datasets into a dictionary
 datasets = {
     'dataset1': pd.read_csv('datasets/BikeRoutes.csv'),
-    'dataset2': pd.read_csv('datasets/Libraries.csv'),
-    'dataset3': pd.read_csv('datasets/Parks.csv'),
-    'dataset4': pd.read_csv('datasets/RecreationCenters.csv')
+    'dataset2': pd.read_csv('datasets/Parks.csv'),
+    'dataset3': pd.read_csv('datasets/RecreationCenters.csv')
 }
 
 # Define columns to return for each dataset
 column_mapping  = {
     'dataset1': ['Road', 'Exit Street', 'Zip Code'],
-    'dataset2': ['Location', 'Address','Zip Code'],
-    'dataset3': ['Park', 'Location', 'Zip Code'],
-    'dataset4': ['Center', 'Address', 'Zip Code']
+    'dataset2': ['Park', 'Location', 'Zip Code'],
+    'dataset3': ['Center', 'Address', 'Zip Code']
 }
 
 @app.route('/')
