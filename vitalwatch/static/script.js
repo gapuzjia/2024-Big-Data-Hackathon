@@ -1,20 +1,58 @@
-// Parse the prize data from the script tag in the HTML
+// Parse the prize data from the script tag in the HTML (rewards page)
 const prizeDataElement = document.getElementById('prize-data');
-const prizeList = JSON.parse(prizeDataElement.textContent);
+let prizeList = [];
+if (prizeDataElement) {
+    prizeList = JSON.parse(prizeDataElement.textContent);
+}
 
-// Set up the canvas and variables for the spinning wheel
+// Set up the canvas and variables for the spinning wheel (rewards page)
 const canvas = document.getElementById('wheelCanvas');
-const ctx = canvas.getContext('2d');
-let arcSize = (2 * Math.PI) / prizeList.length;
+const ctx = canvas ? canvas.getContext('2d') : null;
+let arcSize = prizeList.length > 0 ? (2 * Math.PI) / prizeList.length : 0;
 let startAngle = 0;
 let spinAngle = 0;
 let spinning = false;
 
-// Function to draw the wheel with prizes
+// Initialize points counter and required points to unlock the wheel
+let currentPoints = 20;
+const requiredPoints = 10;
+const pointsDisplay = document.getElementById('points');
+const spinButton = document.getElementById('spinButton');
+
+// Function to update points when tasks are checked on the home page
+function updatePoints() {
+    currentPoints = 20; // Reset points
+    const checkboxes = document.querySelectorAll('input[type="checkbox"][data-points]');
+    checkboxes.forEach((checkbox) => {
+        if (checkbox.checked) {
+            currentPoints += parseInt(checkbox.getAttribute('data-points'), 10);
+        }
+    });
+    if (pointsDisplay) {
+        pointsDisplay.textContent = currentPoints;
+    }
+
+    // Enable spin button if enough points are earned
+    if (spinButton) {
+        spinButton.disabled = currentPoints < requiredPoints;
+    }
+}
+
+// Event listener to update points when a task is checked/unchecked on the home page
+document.querySelectorAll('input[type="checkbox"][data-points]').forEach((checkbox) => {
+    checkbox.addEventListener('change', updatePoints);
+});
+
+// Disable the spin button initially if not enough points are accrued
+if (spinButton) {
+    spinButton.disabled = true;
+}
+
+// Function to draw the wheel with prizes (rewards page)
 function drawWheel() {
-    // Clear the canvas before drawing
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    
+    if (!ctx) return; // If canvas or context is not available, exit the function
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas before drawing
+
     for (let i = 0; i < prizeList.length; i++) {
         const angle = startAngle + i * arcSize;
         ctx.beginPath();
@@ -41,16 +79,16 @@ function drawWheel() {
     }
 }
 
-// Function to spin the wheel
+// Function to spin the wheel (rewards page)
 function spinWheel() {
-    if (!spinning) {
+    if (!spinning && currentPoints >= requiredPoints) {
         spinning = true;
         spinAngle = Math.random() * 2000 + 1000; // Random spin angle between 1000 and 3000 degrees
         animateSpin();
     }
 }
 
-// Function to animate the spinning of the wheel
+// Function to animate the spinning of the wheel (rewards page)
 function animateSpin() {
     spinAngle *= 0.97; // Slow down the spin over time
     startAngle += spinAngle * Math.PI / 180; // Rotate the wheel
@@ -64,15 +102,19 @@ function animateSpin() {
     }
 }
 
-// Function to determine which prize the user has won
+// Function to determine which prize the user has won (rewards page)
 function determinePrize() {
     const winningIndex = Math.floor((startAngle % (2 * Math.PI)) / arcSize);
     const selectedPrize = prizeList[prizeList.length - 1 - winningIndex];
     alert(`Congratulations! You won: ${selectedPrize}`);
 }
 
-// Event listener to start the spin when the button is clicked
-document.getElementById('spinButton').addEventListener('click', spinWheel);
+// Event listener to start the spin when the button is clicked (rewards page)
+if (spinButton) {
+    spinButton.addEventListener('click', spinWheel);
+}
 
-// Initial draw of the wheel when the page loads
-drawWheel();
+// Initial draw of the wheel when the page loads (rewards page)
+if (ctx) {
+    drawWheel();
+}
