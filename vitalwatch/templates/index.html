@@ -19,8 +19,10 @@
                     <li><a href="resource3.html">Resource 3</a></li>
                 </ul>
             </div>
-            <button class="rewards" type="button">Rewards</button>
-            <button class="help" type="button">?</button>
+            <a href="/rewards">
+               <button type="button">Rewards</button>
+            </a>
+            <button class="/help" type="button">?</button>
         </div>
 
 
@@ -84,9 +86,18 @@
                 <button type="button">Change color scheme</button>
             </div>
             <div>
-                <img id="zip" src="https://stlbsa.org/wp-content/uploads/2020/10/Screen-Shot-2020-10-22-at-3.00.46-PM.png" width="145" height="75">
+               <!-- Search bar for zip code -->
+               <form action="/search" method="POST">
+                  <input type="text" name="query" placeholder="Enter a Zip Code" required>
+                  <button type="submit">Go!</button>
+              </form>
+            </div>
+            <div>
+                <!-- Map here -->
                 <img id="map" src="https://islandmapstore.com/wp-content/uploads/2023/08/SAN-DIEGO-BAY-CROP-jpg.webp" width="200" height="200">
             </div>
+            
+
         </div>
    </main>
    <script>
