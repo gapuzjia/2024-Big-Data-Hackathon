@@ -170,21 +170,30 @@ tr:hover {
     background-color: #b0e5ff; /* Light blue highlight on hover */
 }
 
-/* Style checkboxes */
-input[type="checkbox"] {
-    display: none; /* Completely hide the default square checkbox */
+/* #WHEEL ----------------*/
+.wheel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-/* Style for the label */
-input[type="checkbox"] + label {
+.wheel {
     position: relative;
-    padding-left: 30px; /* Space for the circular checkbox */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    width: 300px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: transform 4s ease-out;
 }
 
 /* Create the circular checkbox */
 input[type="checkbox"] + label:before {
     content: '';
+.segment {
     position: absolute;
     left: 0;
     top: 50%;
@@ -207,3 +216,29 @@ input[type="checkbox"]:checked + label {
     text-decoration: line-through; /* Strike-through checked items */
     color: #6b6b6b; /* Dim color for checked items */
 }
+
+    width: 50%;
+    height: 50%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    transform-origin: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segment span {
+    font-size: 14px;
+    text-align: center;
+    transform: rotate(90deg); /* Adjusts text to display properly */
+    color: #333;
+    padding: 2px;
+    white-space: nowrap;
+}
+
+/* END WHEEL------------------- */
+
+
+/*
+    Add colors here
+*/

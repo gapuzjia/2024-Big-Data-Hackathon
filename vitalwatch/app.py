@@ -31,11 +31,12 @@ def resources():
 # Load prizes from CSV
 prizes_df = pd.read_csv('datasets/Prizes.csv')  # Adjust path as necessary
 
+# Load all datasets into a dictionary (make sure your CSV files are in the correct format)
+prizes_df = pd.read_csv('datasets/Prizes.csv', encoding='ISO-8859-1')  # Specify encoding if needed
+prizes = prizes_df['Prize'].tolist()  # Assuming 'Prize' is the column name
+
 @app.route('/rewards')
 def rewards():
-    # Load prizes from CSV
-    prizes_df = pd.read_csv('datasets/Prizes.csv')  # Adjust the path as needed
-    prizes = prizes_df['Prize'].tolist()  # Assuming 'Prize' is the column name
     return render_template('rewards.html', prizes=prizes)
 
 
