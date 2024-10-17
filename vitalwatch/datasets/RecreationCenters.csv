@@ -1,0 +1,61 @@
+objectid,Center,park_name,Address,Zip Code,adult_ctr,comfort_st,comp_room,dance_rm,game_room,gymnasium,kiln,kiln_room,kitchen,multi_purp,racquetbll,stage,teen_ctr,tinytot_rm,weight_rm,cd,neighborhd
+1,Bay TerracesCommunity & Senior Center,Bay Terraces CP,7445 Tooma St,92139,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,4,BAY TERRACES
+2,Park de la Cruz Gymnasium & Community Center,Park de la Cruz Neighbohood Park,3901 Landis Steet St,92105,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,1.0,9,CITY HEIGHTS
+3,San Ysidro Teen Center,San Ysidro CP,101 W. San Ysidro Blvd.,92173,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,8,SAN YSIDRO
+4,Pacific Highlands Ranch Rec Center,Pacific Highlands Ranch Community Park,5977 Village Loop Rd,92130,0.0,2.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1,PACIFIC HIGHLANDS RANCH
+5,Silver Wing Rec Center,Silver Wing Park,3737 Arey Dr,92123,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,8,OTAY MESA WEST
+6,Montgomery-Waller Rec Center,Montgomery-Waller Community Park,3020 Coronado Av,92154,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,8,OTAY MESA WEST
+7,Stockton Rec Center,"Martin Luther King, Jr. Elementary School",330 32nd St,92102,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,9,STOCKTON
+8,Balboa Park Activity Center,Balboa Park,2145 Park Bl,92101,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,3,BALBOA PARK
+9,Skyline Rec Center,Skyline Community Park,8285 Skyline Dr,92114,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,1.0,4,JAMACHA LOMITA
+10,La Jolla Rec Center,La Jolla Community Park,615 Prospect St,92037,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,1,LA JOLLA
+11,Robb Field Rec Center,Mission Bay,2525 Bacon St,92107,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,2,OCEAN BEACH
+12,Carmel Mtn Ranch / Sabre Springs Rec Center,Carmel Mtn Ranch / Sabre Springs Comm Park,10152 Rancho Carmel Dr,92128,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,5,CARMEL MOUNTAIN
+13,Ocean Beach Rec Center,Ocean Beach Community Park,4726 Santa Monica Av,92107,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,2.0,0.0,1.0,0.0,0.0,0.0,2,OCEAN BEACH
+14,Tecolote Rec Center,Tecolote Community Park,4675 Tecolote Rd,92110,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,7,MORENA
+15,Colonel Salomon Rec Center,San Ysidro Comm Activity Center,179 Diza Rd,92173,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,1.0,8,SAN YSIDRO
+16,Presidio Rec Center,Presidio Community Park,2811 Jackson St,92110,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2,OLD TOWN
+17,Mid-City Gymnasium,Mid-City Police Sub Station,4302 Landis St,92105,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9,CASTLE
+18,Cadman Rec Center,Cadman Community Park,4280 Avati Rd,92117,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,2,BAY HO
+19,Municipal Gymnasium,Balboa Park,2111 Pan American Rd,92101,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3,BALBOA PARK
+20,Golden Hills Rec Center,Balboa Park,2600 Golf Course Dr,92102,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,3,BALBOA PARK
+21,Santa Clara Point Rec Center,Mission Bay,1008 Santa Clara Pl,92109,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,1.0,2,MISSION BEACH
+22,Willie Henderson Rec Center,Willie Henderson Sports Complex,1035 S 45th St,92113,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,4,MOUNTAIN VIEW
+23,Encanto Teen Center,Encanto Community Park,6508 Wunderlin Av,92114,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,4,ENCANTO
+24,Encanto Rec Center,Encanto Community Park,6508 Wunderlin Av,92114,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,4,ENCANTO
+25,Adams Rec Center,Adams Avenue Community Park,3491 Adams Av,92116,0.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,9,NORMAL HEIGHTS
+26,Mountain View Rec Center,Mountain View Park,551 S 40th St,92113,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,3.0,0.0,1.0,1.0,0.0,1.0,4,MOUNTAIN VIEW
+27,Cabrillo Rec Center,Cabrillo Elementary School,3051 Canon St,92106,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,2,ROSEVILLE / FLEET RIDGE
+28,Rancho Bernardo Rec Center,Rancho Bernardo Community Park,18448 W Bernardo Dr,92127,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,5,RANCHO BERNARDO
+29,North Park Rec Center,North Park Community Park,4044 Idaho St,92104,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,1.0,1.0,0.0,3,NORTH PARK
+30,Scripps Ranch Rec Center,Scripps Ranch Community Park,11454 Blue Cypress Dr,92131,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,5,MIRAMAR RANCH NORTH
+31,Azalea Rec Center,Azalea Neighborhood Park,2596 Violet St,92105,0.0,0.0,1.0,0.0,0.0,0.0,2.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,9,AZALEA/HOLLYWOOD PARK
+32,Southcrest Rec Center,Southcrest Community Park,4149 Newton Av,92113,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,1.0,8,SOUTHCREST
+33,Paradise Hills Rec Center,Paradise Hills Community Park,6610 Potomac St,92139,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,4,PARADISE HILLS
+34,Serra Mesa Rec Center,Serra Mesa Community Park,9020 Village Glen Dr,92123,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,7,SERRA MESA
+35,Ocean Air Rec Center,Ocean Air Community Park,4770 Fairport Way,92130,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1,CARMEL VALLEY
+36,Doyle Rec Center,Doyle Community Park,8175 Regents Rd,92122,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,1.0,6,UNIVERSITY CITY
+37,San Carlos Rec Center,San Carlos Community Park,6445 Lake Badin Av,92119,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,7,LAKE MURRAY
+38,Cesar Chavez Comm Center,San Ysidro Athletic Area,455 Sycamore Rd,92173,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,8,SAN YSIDRO
+39,"Robert Egger, Sr. - South Bay Rec Center","Robert Egger, Sr. - South Bay Community Park",1885 Coronado Av,92154,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,0.0,8,EGGER HIGHLANDS
+40,Nobel Rec Center,Nobel Athletic Area,8810 Judicial Dr,92122,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,6,UNIVERSITY CITY
+41,Canyonside Rec Center,Canyonside Community Park,12350 Black Mountain Rd,92126,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,5,RANCHO PENASQUITOS
+42,Lopez Ridge Rec Center,Lopez Ridge Park,7245 Calle Cristobal,92126,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,6,MIRA MESA
+43,Gil Johnson Mira Mesa Rec Center,Mira Mesa Community Park,8575 New Salem St,92126,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,6,MIRA MESA
+44,Hilltop Rec Center,Hilltop Community Park,9711 Oviedo Wy,92129,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,5,RANCHO PENASQUITOS
+45,Black Mtn Multi-Purpose Gym,Black Mountain Middle School,9353 Oviedo St,92126,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,5,RANCHO PENASQUITOS
+46,Pacific Beach Rec Center,Pacific Beach Community Park,1405 Diamond St,92109,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,1,PACIFIC BEACH
+47,Linda Vista Rec Center,Linda Vista Community Park,7064 Levant St,92111,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,7,LINDA VISTA
+49,North Clairemont Rec Center,North Clairemont Community Park,4421 Bannock Av,92117,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,2,NORTH CLAIREMONT
+50,Penn Rec Center,Penn Athletic Field,2555 Dusk Dr,92139,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,4,BAY TERRACES
+51,Dolores Magdaleno Memorial Rec Center,Memorial Community Park,2902 Marcy Av,92113,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,1.0,0.0,1.0,8,LOGAN HEIGHTS
+52,So. Clairemont Rec Center,South Clairmont Community Park,3605 Clairemont Dr,92117,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,1.0,0.0,0.0,0.0,2,BAY PARK
+53,City Heights Rec Center,City Heights Community Park,4380 Landis St,92105,0.0,0.0,1.0,0.0,0.0,0.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,9,FAIRMONT VILLAGE
+54,Kearny Mesa Rec Center,Kearny Mesa Community Park,3170 Armstrong St,92111,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,7,LINDA VISTA
+55,Tierrasanta Rec Center,Tierrasanta Community Park,11220 Clairemont Mesa Bl,92124,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,7,TIERRASANTA
+56,"Martin L. King, Jr. Memorial Rec Center","Martin Luther King, Jr. Memorial Community",6401 Skyline Dr,92114,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,4,ENCANTO
+57,Colina Del Sol Rec Center,Colina Del Sol Community Park,5319 Orange Av,92115,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,9,COLINA DEL SOL
+58,Allied Gardens Rec Center,Allied Gardens Community Park,5155 Greenbrier Av,92120,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,7,ALLIED GARDENS
+59,Standley Rec Center,Standley Community Park,3585 Governor Dr,92122,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,6,UNIVERSITY CITY
+60,Hourglass Rec Center,Mira Mesa Communty College,10440 Black Mountain Rd,92126,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,6,MIRA MESA
+61,Carmel Valley Rec Center,Carmel Valley TownCenter Community Park,3770 Townsgate Dr,92130,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1,CARMEL VALLEY

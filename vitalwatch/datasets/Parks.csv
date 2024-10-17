@@ -1,0 +1,1374 @@
+objectid,Park,alias,park_type,Location,Zip Code
+3,Ruocco Park,Ruocco Park,Local,"585 Harbor Ln, San Diego. California",92101
+4,Tuna Harbor Park,Tuna Harbor Park,Local,"700 North Harbor Dr, San Diego. California",92101
+5,San Diego Bayfront Park,San Diego Bayfront Park,Local,"One Park Boulevard, San Diego. California",92101
+6,Pepper Park ,Pepper Park ,Local,"3299 Tidelands Av, National City. California",91950
+23,Grand Caribe Shoreline Park,Grand Caribe Shoreline Park,Local,"598 Grand Caribe Cswy, Coronado. California",92118
+30,Shelter Island Shoreline Park (North),Shelter Island Shoreline Park (North),Local,"1500 Shelter Island Dr, San Diego. California",92106
+31,Coronado Ferry Landing Park ,Coronado Ferry Landing Park ,Local,"1 B Av, Coronado. California",92118
+32,Centennial Park,Centennial Park,Local,"1 B Av, Coronado. California",92118
+33,Lane Field Park,Lane Field Park,Local,"1009 North Harbor Dr, San Diego. California",92101
+34,Broadway Landing,Broadway Landing,Local,"1198 West Broadway, San Diego. California",92132
+35,Harbor Island Park,Harbor Island Park,Local,"1875 Harbor Island Dr, San Diego. California",92101
+36,Spanish Landing Park (East),Spanish Landing Park (East),Local,"3900 North Harbor Dr, San Diego. California",92101
+37,Spanish Landing Park (West),Spanish Landing Park (West),Local,"4300 North Harbor Dr, San Diego. California",92101
+38,Spanish Landing Park (West),Spanish Landing Park (West),Local,"4300 North Harbor Dr, San Diego. California",92101
+39,Tuna Harbor Park,Tuna Harbor Park,Local,"700 North Harbor Dr, San Diego. California",92101
+40,Shelter Island Shoreline Park (Central),Shelter Island Shoreline Park (Central),Local,"1800 Shelter Island Dr, San Diego. California",92106
+41,Shelter Island Shoreline Park (Central),Shelter Island Shoreline Park (Central),Local,"1800 Shelter Island Dr, San Diego. California",92106
+42,Shelter Island Shoreline Park (Central),Shelter Island Shoreline Park (Central),Local,"1800 Shelter Island Dr, San Diego. California",92106
+43,Chula Vista Bayside Park & Pier,Chula Vista Bayside Park & Pier,Local,"999 Bayside Pkwy, Chula Vista. California",91910
+44,Maxton Brown Park,Maxton Brown Park,Local,Laguna Dr And State St,92008
+52,Zone 5 Park ,Zone 5 Park ,Local,Faraday Av And Camino Hills Dr,92008
+63,Navy Pier,Navy Pier,Local,"900 North Harbor Dr, San Diego. California",92132
+64,Coronado Tidelands Park,Coronado Tidelands Park,Local,"2000 Mullinix Dr, Coronado. California",92118
+66,Cesar Chavez Park,Cesar Chavez Park,Local,"1449 Cesar E. Chavez Pkwy, San Diego. California",92101
+67,Fifth Avenue Landing Lawn Area,Fifth Avenue Landing Lawn Area,Local,"600 Convention Center Wy, San Diego. California",92101
+68,Yacht Club Promenade Pocket Park,Yacht Club Promenade Pocket Park,Local,"Strand Wy, Coronado. California",92118
+69,Embarcadero Marina Park North,Embarcadero Marina Park North,Local,"400 Kettner Blvd, San Diego. California",92101
+70,Point Loma Marina Park,Point Loma Marina Park,Local,"2040 Harbor Island Drive, San Diego. California",92106
+71,Portwood Pier Plaza,Portwood Pier Plaza,Local,"940 Seacoast Dr, Imperial Beach. California",91932
+72,Holiday Estates I Park,Holiday Estates I Park,Local,383 Connoley Cir,91911
+79,Gayle L Mccandliss Park,Gayle L Mccandliss Park,Local,415 E J St,91910
+80,Sunbow Park,Sunbow Park,Local,500 E Naples St,91911
+81,Lancerlot Park,Lancerlot Park,Local,750 K St,91910
+82,Eucalyptus Park,Eucalyptus Park,Local,Fourth Av & C St,91910
+83,Friendship Park,Friendship Park,Local,Fourth Av & F St,92154
+84,Norman Park,Norman Park,Local,270 F St,31771
+85,Chula Vista Women'S Club,Chula Vista Women'S Club,Local,390 Garrett Av,91910
+87,Bay Boulevard Park,Bay Boulevard Park,Local,F St & Bay Bl,91910
+88,Bayside Park,Bayside Park,Local,Bayside Pw,91910
+89,Bayfront Park,Bayfront Park,Local,800 Marina Pkwy,92101
+90,Marina View Park,Marina View Park,Local,800 Marina Pkwy,91910
+91,Embarcadero Marina Park South,Embarcadero Marina Park South,Local,"20 Marina Park Wy, San Diego. California",92101
+92,Coronado Skatepark,Coronado Skatepark,Local,"2000 Mullinix Drive, Coronado. California",92118
+94,Shelter Island Shoreline Park (South),Shelter Island Shoreline Park (South),Local,"1500 Shelter Island Dr, San Diego. California",92106
+95,Fuerte Park,Fuerte Park,Local,El Fuerte St And Corinitia St,92009
+96,Stagecoach Park,Stagecoach Park,Local,3420 Camino De Los Coches,92009
+97,Alga Norte Park,Alga Norte Park,Local,6565 Alicante Rd,92009
+98,Marisol Park,Marisol Park,Local,916 Rancho Del Rey Pkwy,91910
+99,Terra Nova Park,Terra Nova Park,Local,450 Hidden Vista Dr,91910
+100,Rohr Park,Rohr Park,Local,4548 Sweetwater Rd,91902
+102,Loma Verde Park,Loma Verde Park,Local,1420 Loma Ln,91911
+103,Rienstra Sports Complex,Rienstra Sports Complex,Local,1500 Max Av,91911
+104,Los Ninos Park,Los Ninos Park,Local,150 Teal St,91911
+105,Connoley Park,Connoley Park,Local,1559 Connoley Av,91911
+106,Holiday Estates Ii Park,Holiday Estates Ii Park,Local,368 Connoley Cir,91911
+108,Las Verdes Park,Las Verdes Park,Local,1390 Paseo De Las Verdes,92024
+109,Wiro Park,Wiro Park,Local,2232 El Camino Del Norte,92024
+111,Horizon Park,Horizon Park,Local,970 E Palomar St,92104
+112,Sunridge Park,Sunridge Park,Local,952 Beechglen Dr,91910
+113,Chula Vista Marina View Park,Chula Vista Marina View Park,Local,"900 Marina Pkwy, Chula Vista. California",91910
+114,Chula Vista Bayfront Park,Chula Vista Bayfront Park,Local,"980 Marina Pkwy, Chula Vista. California",91910
+115,Otay Park,Otay Park,Local,1613 Albany Av,92154
+117,Valle Lindo Park,Valle Lindo Park,Local,545 Sequoia Dr,91911
+118,Greg Rogers Park,Greg Rogers Park,Local,1189 Oleander Av,91911
+119,Veterans Park,Veterans Park,Local,785 E Palomar St,91932
+120,Calavera Park,Calavera Park,Local,2997 Glasgow Drive,92010
+121,Cannon Park,Cannon Park,Local,Carlsbad Bl And Cannon Rd,92121
+122,Hidden Canyon Park,Hidden Canyon Park,Local,Carlsbad Village Dr,92010
+124,Aviara Oaks School Field,Aviara Oaks School Field,Local,Ambrosia Ln & Aviara Pkwy,92011
+125,Hosp Grove Park,Hosp Grove Park,Local,Jefferson & Monroe,92008
+126,Carlsbad High School,Carlsbad High School,Local,3557 Monroe St,92008
+127,Monroe Street Pool,Monroe Street Pool,Local,3557 Monroe St,92008
+130,Rancho Del Rey Park North,Rancho Del Rey Park North,Local,1311 Buena Vista Wy,91910
+133,Hilltop Park,Hilltop Park,Local,780 Hilltop Dr,92129
+134,Harborside Park,Harborside Park,Local,670 Oxford St,91911
+135,Lauderbach Park,Lauderbach Park,Local,333 Oxford St,91911
+140,Explorer Park,Explorer Park,Local,Rancho Del Rey Py & Norella St,91910
+141,Poinsettia Park,Poinsettia Park,Local,6600 Hidden Valley Road,92011
+143,Hawk View Park,Hawk View Park,Local,1309 Blue Heron Ave,92024
+144,Sun Vista Park,Sun Vista Park,Local,2011 Avenida La Posta,92024
+145,Little Oaks Equestrian Park,Little Oaks Equestrian Park,Other,2879 Lone Jack Rd,92024
+146,Oak Crest Park,Oak Crest Park,Local,1219 Encinitas Blvd,91913
+147,Las Verdes Park,Las Verdes Park,Local,1390 Paseo De Las Verdes,92024
+148,Mildred Macpherson Park,Mildred Macpherson Park,Local,1045 S Vulcan Ave,92024
+149,Mackenzie Creek Park,Mackenzie Creek Park,Local,2775 Mackenzie Creek Rd,91914
+150,Montevalle Park,Montevalle Park,Local,840 Duncan Ranch Rd,91914
+151,Chula Vista Community Park,Chula Vista Community Park,Local,1060 Eastlake Pkwy,91915
+152,Salt Creek Park,Salt Creek Park,Local,2710 Otay Lakes Rd,91915
+153,Sunset View Park,Sunset View Park,Local,1390 S Greensview Dr,91915
+157,Hillside,Hillside Park,Local,840 Buena Terrace,92111
+158,Albert Van Zanten,Albert Van Zanten Park,Local,1495 Greenfield Drive,92021
+159,Centennial Plaza,Centennial Plaza Park,Local,200 Civic Center Way,92182
+160,Orpheus Park,Orpheus Park,Local,482 Orpheus Ave,92024
+175,Fletcher Hills,Fletcher Hills,Local,2345 Center Place,91942
+178,Judson,Judson Park,Local,326 N. Magnolia Avenue,92111
+179,Prescott Promenade,Prescott Promenade,Local,201 E. Main Street,92020
+180,Paseo Del Rey Park,Paseo Del Rey Park,Local,750 Paseo Del Rey,91910
+181,Leo Carrillo Historic Park,Leo Carrillo Historic Park,Local,Melrose Dr And Poinsettia Ln,92009
+182,Aviara Community Park ,Aviara Community Park ,Local,Poinsettia Ln & Ambrosia Ln,92011
+183,Cadencia Park,Cadencia Park,Local,3300 Cadencia St,92009
+184,La Costa Canyon Park,La Costa Canyon Park,Local,Pueblo St And Rana Court,92009
+197,Windingwalk Park,Windingwalk Park,Local,1675 Exploration Falls Dr,91915
+213,Ecke Sports Park,Ecke Sports Park,Local,278 Saxony Rd,92024
+214,Voyager Park,Voyager Park,Local,1178 E J St,91910
+215,Harvest Park,Harvest Park,Local,1550 E Palomar St,91913
+217,Bonita Long Canyon Park,Bonita Long Canyon Park,Local,1745 Coltridge Ln,91902
+219,Breezewood Park,Breezewood Park,Local,1091 Breezewood Dr,91913
+221,Santa Cora Park,Santa Cora Park,Local,1365 Santa Cora Av,91913
+222,Santa Venetia Park,Santa Venetia Park,Local,1500 Magdalena Av,91913
+223,All Seasons Park,All Seasons Park,Local,1825 Magdalena Av,91913
+224,Mount San Miguel Park,Mount San Miguel Park,Local,2335 Paseo Veracruz,91914
+225,Mountain Hawk Park,Mountain Hawk Park,Local,1475 Lake Crest Dr,91915
+226,Leucadia Oaks Park,Leucadia Oaks Park,Local,1511 N Vulcan Ave,92024
+230,Teeple Park,Teeple Park,Local,1121 Calla Ave,91932
+232,Veterans Park,Veterans Park,Local,1075 8Th St,91932
+233,Pier Plaza,Pier Plaza,Local,10 Evergreen Ave,91932
+234,Reama Park,Reama Park,Local,210 Elkwood Ave,91932
+238,Pocket Park,Pocket Park,Local,Palm Ave And Silver Strand Blvd,92101
+257,Lakeview Park,Lakeview Park,Local,700 Foxhall Dr,92131
+258,Jack'S Pond Park,Jack'S Pond Park,Local,986 La Moree Rd,92078
+259,Alder Glenn Park,Alder Glenn Park,Local,Park Creek Ct,92078
+260,Sage Pointe Park,Sage Pointe Park,Local,201 Autumn Dr,92069
+262,Buccaneer Beach Park,Buccaneer Beach Park,Local,1506 South Pacific Street,92054
+263,Oak Riparian Park,Oak Riparian Park,Local,4625 Lake Boulevard,92056
+298,Double Peak Regional Park,Double Peak Regional Park,Local,900 Double Peak Dr,92078
+302,Sky Ranch Park,Sky Ranch Park,Local, ,92071
+303,William Bradley Park,William Bradley Park,Local,1587 Linda Vista Dr,92078
+304,Cerro De Las Posas Park,Cerro De Las Posas Park,Local,1387 W Borden Rd,92069
+305,Hollandia Park,Hollandia Park,Local,12 Mission Hills Ct,92069
+307,Montiel Park,Montiel Park,Local,2290 Montiel Rd,92069
+309,Mission Sports Park,Mission Sports Park,Local,931 Bailey Ct,92069
+310,Helen Bougher Park,Helen Bougher Park,Local,1243 Borden Rd,92069
+311,The Laurels Park,The Laurels Park,Local,950 Hawthorne Ct,92078
+312,Discovery Hills Children'S Park,Discovery Hills Children'S Park,Local,Via Vera Cruz,92101
+313,San Elijo Hills Mini Park,San Elijo Hills Mini Park,Local,Questhaven Rd,92078
+314,Buelow Park,Buelow Park,Local,300 Autumn Dr,92069
+315,Ridgeline Trailhead,Ridgeline Trailhead,Local,San Elijo Rd,92078
+316,Connors Park,Connors Park,Local,320 W San Marcos Blvd,92069
+317,Sunset Park,Sunset Park,Local,909 Puesta Del Sol,92107
+318,Regency Hills Park,Regency Hills Park,Local,555 Calle Capistrano,92069
+319,Senior Center Tot Lot,Senior Center Tot Lot,Local,111 Richmar Ave,92069
+320,Civic Center Park,Civic Center Park,Local,3 Civic Center Dr,92101
+321,Santa Fe Hills Park,Santa Fe Hills Park,Local,701 Via Barquero,92069
+323,Quail Valley Park,Quail Valley Park,Local,775 Avenida Leon,92069
+326,"King, Martin Luther Jr Park","King, Martin Luther Jr Park",Local,4300 Mesa Drive,92114
+329,Scott Valley Park,Scott Valley Park,Local,1602 Willowhaven Rd,92024
+330,Leo Mullen Sports Park,Leo Mullen Sports Park,Local,951 Via Cantebria,92024
+331,Encinitas Community Park,Encinitas Community Park,Other,425 Santa Fe Dr,92024
+332,Leucadia Roadside Park,Leucadia Roadside Park,Local,860 N Coast Highway 101,92024
+333,Cottonwood Creek Park,Cottonwood Creek Park,Local,95 N Vulcan Ave,92024
+334,Cardiff Sports Park,Cardiff Sports Park,Local,1661 Lake Dr,92024
+340,Snedeker Property,Snedeker Property,Open Space,West Side Saxony / South La Costa,92024
+346,San Elijo Park,San Elijo Park,Local,1105 Elfin Forest Rd,92078
+347,Simmons Family Park,Simmons Family Park,Local,2180 Rocky Point Way,92078
+350,Pebblestone Park,Pebblestone Park,Local,Glendale Ave,92069
+356,Luz Duran Park,Luz Duran Park,Local,340 E Townsite Dr,92084
+357,Wave Waterpark,Wave Waterpark,Local,101 Wave Dr,92083
+358,Civic Center Park,Civic Center Park,Local,200 Civic Center Dr,92101
+360,Rancho Buena Vista Adobe,Rancho Buena Vista Adobe,Local,640 Alta Vista Dr,92084
+361,Brengle Terrace Park,Brengle Terrace Park,Local,1200 Vale Terrace Dr,92084
+363,Breeze Hill Park,Breeze Hill Park,Local,645 S Melrose Dr,92081
+364,South Buena Vista Park,South Buena Vista Park,Local,1602 Mountain Pass Cir,92081
+365,Buena Vista Park Ballfields,Buena Vista Park Ballfields,Local,1851 S Melrose Dr,92081
+366,Thibodo Park,Thibodo Park,Local,1150 Lupine Hills Dr,92081
+367,Shadowridge Park,Shadowridge Park,Local,2101 Lupine Hills Dr,92081
+369,Buena Vista Park Pond And Open Space,Buena Vista Park Pond And Open Space,Local,1749 Shadowridge Dr,92081
+370,Buena Vista Park,Buena Vista Park,Local,2009 Melrose Dr,92081
+371,West Hills Park,West Hills Park,Local,8750 Mast Blvd,92110
+372,Big Rock Park,Big Rock Park,Local,8125 Arlette Street,92071
+373,Shadow Hill Park,Shadow Hill Park,Local,9161 Shadow Hill Road,92071
+374,Mast Park,Mast Park,Local,9125 Carlton Hills Blvd,92071
+375,Woodglen Vista Park,Woodglen Vista Park,Local,10250 Woodglen Vista Drive,92071
+377,Santee Mini Park,Santee Mini Park,Local,10445 Mission Gorge Road,92071
+389,Palisades Park,Palisades Park,Local,Rancho Del Oro And Vista Del Oro,92109
+391,"Todd, Buddy Park","Todd, Buddy Park",Local,Mesa Drive And Parnassus Circle,92054
+394,Cabrillo National Monument,Cabrillo National Monument,National,"Cabrillo Memorial Drive, San Diego",92106
+397,Greg Rogers Park Os,Greg Rogers Park Open Space,Open Space,1189 Oleander Av,91911
+399,Capistrano Park,Capistrano Park,Local,770 Capistrano Drive,92058
+400,"Landes, John Park","Landes, John Park",Local,2855 Cedar Road,92056
+401,Ivey Ranch Park,Ivey Ranch Park,Local,4101 Mission Avenue,92057
+402,Tyson Street Park,Tyson Street Park,Local,206 S. Strand,92054
+404,Terra Nova Park Os,Terra Nova Park Open Space,Open Space,450 Hidden Vista Dr,91910
+407,Ocean Beach Gateway,Ocean Beach Gateway,Local,"2300 Sunset Cliffs Blvd, 92107",92107
+409,Cadman Cp,Cadman Park,Local,"4280 Avati Drive, 92117",92114
+411,South Clairemont Cp,South Clairemont Park,Local,"3577 Clairemont Dr, 92117",92117
+414,Henderson Sport Cplx,Henderson Sport Cplx,Local,"1092 S 45Th St, 92113",92113
+417,Sunnyslope Np,Sunnyslope Park,Local,"2600 Elm St., 92154",92027
+418,Villa Monserate Np,Villa Monserate Park,Local,"10283 Perez Court, 92124",92124
+419,Villa Norte Np,Villa Norte Park,Local,"6597 Antigua Blvd., 92124",92037
+426,Libby Lake Park,Libby Lake Park,Local,424 Calle Montecito,92057
+427,"Ortega, Ron Recreation Park","Ortega, Ron Recreation Park",Local,Brooks And Maxson,92054
+428,Presidio Park,Presidio Park,Regional,"2805 Presidio Dr, 92110",92110
+432,Pt Loma Cp,Pt Loma Park,Local,"1059 Catalina Blvd, 92106",91911
+439,Torrey Pines City Park,Torrey Pines City Park,Regional,"12001 Torrey Pines Park Rd, 92037",92037
+440,Charlotte Park,Charlotte Park,Regional,"7962 Princess St, 92037",37209
+441,Hickman Field Park,Hickman Field Park,Regional,"6660 Hickman Field Drive, 92111",92111
+446,Lomita Np,Lomita Park,Local,"8205 Leucadia St., 92114",92114
+448,Marie Widman Memorial Park,Marie Widman Memorial Park,Local,"6727 Imperial Ave, 92114",92114
+449,Boone Np,Boone Park,Local,"7248 Bullock Dr., 92114",92117
+450,Z St Mp,Z St Park,Local,"3944 Z St, 92113",92113
+458,Dailard Np,Dailard Park,Local,"6391 Cibola Rd, 92120",92120
+460,Black Mtn Rch Cp,Black Mtn Rch Park,Local,"14700 Carmel Valley Road, 92128",92127
+461,Carmel Mtn Rch Cp,Carmel Mtn Rch Park,Local,"10166 Rancho Carmel Dr, 92128",92128
+464,Skyline Hills Cp,Skyline Hills Park,Local,"8285 Skyline Dr., 92114",92114
+466,Southcrest Cp,Southcrest Park,Local,"1297 S 40Th St, 92113",92113
+467,Paradise Hills Cp,Paradise Hills Park,Local,"6610 Potomac St., 92139",92139
+470,Montgomery-Waller Cp,Montgomery-Waller Park,Local,"3020 Coronado Ave., 92154",92154
+471,Nicholson'S Point Np,Nicholson'S Point Park,Local,"246 Coast Blvd, 92037",92037
+472,Coast Blvd Np,Coast Blvd Park,Local,"322 Coast Blvd, 92037",92037
+473,Canyonside Cp,Canyonside Park,Local,"12350 Black Mountain Road, 92129",92129
+476,Nobel Athletic Area,Nobel Athletic Area,Local,"8810 Judicial Drive, 92121",92122
+480,Tierrasanta Cp,Tierrasanta Park,Local,"11220 Clairemont Mesa Bl., 92124",92124
+483,Cleator Bill Cp,Cleator Bill Park,Local,"4412 Nimitz Blvd, 92107",92107
+485,Via D Norte Mp,Via D Norte Park,Local,"6165 La Jolla Hermosa Ave, 92037",92037
+488,Tourmaline Surfing Np,Tourmaline Surfing Park,Local,"601 Tourmaline Street, 92109",92109
+490,Mt Etna Np,Mt Etna Park,Local,"4741 Mt Etna Drive, 92117",92117
+491,Lindbergh Np,Lindbergh Park,Local,"4141 Ashford Street, 92111",92154
+493,Old Trolley Barn Np,Old Trolley Barn Park,Local,"1900 Adams Ave., 92116",92116
+499,Los Altos Np,Los Altos Park,Local,"3898 Marzo St, 92154",92109
+500,Ocean View Hills Np,Ocean View Hills Park,Local,"4925 Ocean View Hills Pkwy, 92154",92154
+501,Vista Pacifica Np,Vista Pacifica Park,Local,"6066 Avenida De Las Vistas, 92154",92154
+507,Grant Hill Np,Grant Hill Park,Local,"2632 J St, 92102",92102
+510,Chicano Park,Chicano Park,Regional,"1982 National Ave., 92113",92113
+511,Hermosa Terrace Park,Hermosa Terrace Park,Regional,"6500 Neptune Pl, 92037",92037
+512,La Jolla Hermosa Park,La Jolla Hermosa Park,Regional,"5788 Chelsea St, 92037",92037
+513,Mission Beach Park,Mission Beach Park,Regional,"804 W Mission Bay Dr, 92109",92109
+515,Naval Training Center Park,Naval Training Center Park,Regional,"2750 Womble Rd, 92106",92106
+517,Sunset Cliffs Natural Park,Sunset Cliffs Natural Park,Regional,"700 Sunset Cliffs Blvd, 92107",92107
+518,Kenmore Terrace Mp,Kenmore Terrace Park,Local,"4842 Kenmore Terrace, 92103",92116
+520,Collier Np,Collier Park,Local,"2351 Soto Street, 92107",92115
+521,Windansea Np,Windansea Park,Local,"6950 Neptune Pl, 92037",92037
+522,Jerabek Np,Jerabek Park,Local,"10150 Avenida Magnifica, 92131",92131
+524,Park De La Cruz Np,Park De La Cruz Park,Local,"3901 Landis St. , 92105",92105
+526,Martin Ave Mp,Martin Ave Park,Local,"3469 Martin Ave, 92113",92113
+529,Chollas Parkway Open Space,Chollas Parkway Open Space,Open Space,"2891 Euclid Ave, 92105",92105
+530,Sunshine Berardini Field,Sunshine Berardini Field,Local,"4416 Federal Blvd, 92102",92105
+532,Mccall St Mp,Mccall St Park,Local,"453 San Antonio Ave, 92106",92106
+533,Horton Plaza Np,Horton Plaza Park,Local,"325 Broadway Ave, 92101",92101
+534,Nestor Np,Nestor Park,Local,"2423 Grove Ave., 92154",92154
+539,Kelly Street Np,Kelly Street Park,Local,"6640 Kelly Street, 92111",92111
+540,Mission Heights Np,Mission Heights Park,Local,"1716 Westinghouse Street, 92111",92108
+542,Penasquitos Village Np,Penasquitos Village Park,Local,"10636 Carmel Mountain Rd, 92129",92129
+545,Pantoja Np,Pantoja Park,Local,"524 West G Street, 92118",92122
+551,Del Mar Mesa Np,Del Mar Mesa Park,Local,"6622 Duck Pond Ln, 92130",92130
+552,Twin Trails Np,Twin Trails Park,Local,"8900 Twin Trails Drive, 92129",92129
+553,Ridgewood Np,Ridgewood Park,Local,"12530 La Tortola, 92129",92139
+554,Penasquitos Town Ctr Np,Penasquitos Town Ctr Park,Local,"13349 Salmon River Rd, 92129",92129
+555,Views West Np,Views West Park,Local,"12904 La Tortola, 92129",92129
+558,Clay Ave Mp,Clay Ave Park,Local,"3156 Clay Ave, 92113",92113
+559,Canyon View Pocket Mp,Canyon View Pocket Park,Local,"11724 Spring Canyon Rd., 92131",92131
+561,Cypress Canyon Np,Cypress Canyon Park,Local,"11470 Cypress Canyon Rd., 92131",92131
+562,Torrey Meadows Np,Torrey Meadows Park,Local,"13516 Torrey Meadows Dr, 92129",92129
+563,Adobe Bluffs Np,Adobe Bluffs Park,Local,"8805 Gainsborough Avenue, 92129",92129
+564,Highland Ranch Np,Highland Ranch Park,Local,"12140 Eastbourne Road, 92128",92128
+565,Crest Cyn Np,Crest Cyn Park,Local,"2250 Del Mar Heights Road, 92130",92014
+566,Carmel Del Mar Np,Carmel Del Mar Park,Local,"12345 Carmel Park Drive, 92103",92130
+567,Windwood Np,Windwood Park,Local,"12757 Carmel Creek Rd, 92130",92114
+568,Carmel Mission Np,Carmel Mission Park,Local,"12281 Carmel Country Rd, 92130",92130
+569,Plumosa Mp,Plumosa Park,Local,"2676 Chatsworth Blvd, 92106",92106
+572,Gompers Np,Gompers Park,Local,"4926 Hilltop Dr., 92102",92102
+574,Santa Isabel Mp,Santa Isabel Park,Local,"771 Santa Isabel Dr, 92114",92114
+577,Keiller Np,Keiller Park,Local,"7400 Lisbon St., 92114",92114
+578,Lopez Ridge Np,Lopez Ridge Park,Local,"7245 Calle Cristobal, 92126",92121
+581,Aviary Np,Aviary Park,Local,"9782 Aviary Drive., 92131",92131
+582,Forestview Mp,Forestview Park,Local,"11201 Forestview Lane, 92131",92131
+583,Lakeview Np,Lakeview Park,Local,"10788 Mira Lago Trl, 92131",92040
+584,Miramar Overlook Np,Miramar Overlook Park,Local,"11417 Scripps Ranch Blvd, 92131",92131
+586,Vista Terrace Np,Vista Terrace Park,Local,"301 Athey Ave., 92173",91941
+587,San Ysidro Athl Area Larsen Field,San Ysidro Athl Area Larsen Field,Local,"455 Sycamore Rd, 92173",92173
+589,Mesa Viking Np,Mesa Viking Park,Local,"11278 Westonhill Drive, 92126",92126
+590,Westview Np,Westview Park,Local,"11278 Westview Parkway, 92126",92126
+592,Semillon Mp,Semillon Park,Local,"12074 Semillon Blvd, 92131",92131
+593,Spring Canyon Np,Spring Canyon Park,Local,"11157 Scripps Poway Pkwy, 92131",92131
+594,Del Mar Trails Np,Del Mar Trails Park,Local,"4450 Del Mar Trails Rd, 92130",92130
+595,Coral Gate Np,Coral Gate Park,Local,"3279 Anella Rd., 92173",92173
+599,Emerald Hills Np,Emerald Hills Park,Local,"1501Kelton Rd. , 92114",92114
+601,Zena Mp,Zena Park,Local,"6458 Zena Dr, 92115",92115
+602,Cabrillo N Mp,Cabrillo N Park,Local,"3232 Trumbull Street, 92106",92106
+603,Azalea Np,Azalea Park,Local,"2596 Violet Ave., 92105",92105
+604,Montclair Np,Montclair Park,Local,"2786 Vancouver Ave, 92104",92104
+606,Cabrillo S Mp,Cabrillo S Park,Local,"1032 Leroy Street, 92106",92106
+607,Sage Canyon Np,Sage Canyon Park,Local,"5252 Harvest Run Drive, 92130",92130
+608,Torrey Hills Np,Torrey Hills Park,Local,"4262 Calle Mejillones, 92130",92130
+611,Capehart Open Space Park,Capehart Open Space Park,Open Space,"4700 Soledad Mountain Road, 92109",92109
+612,Ocean Air Cp,Ocean Air Park,Local,"4770 Fairport Ave, 92130",92130
+613,Hidden Trails Np,Hidden Trails Park,Local,1049 Parsons Landing,92154
+615,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+618,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+620,Park Northeast Os,Park Northeast Open Space,Open Space, ,92109
+621,Cabrillo Heights Np,Cabrillo Heights Park,Local,"8308 Hurlbut Street, 92123",92123
+624,Dry Creek Mp,Dry Creek Park,Local,"11369 Scripps Creek Drive,92131",92114
+625,Oak Glen Mp,Oak Glen Park,Local,"10775 Spring Canyon Rd, 92131",92117
+626,Solana Ranch Np,Solana Ranch Park,Local,"13597 Pacific Highlands Pkwy, 92130",92130
+628,Penasquitos Skate Park,Penasquitos Skate Park,Local,"10129 Carmel Mountain Rd, 92129",92129
+629,Silver Terrace Mp,Silver Terrace Park,Local,"5500 Friars Road, 92110",94124
+630,Sunridge Vista Mp,Sunridge Vista Park,Local,"10305 Azuaga, 92129",92129
+631,Teralta Np,Teralta Park,Local,"4100 Central Ave., 92105",92105
+632,Antigua Pocket Np,Antigua Pocket Park,Local,"5699 Antigua Blvd., 92124",92124
+634,W Lewis St Mp,W Lewis St Park,Local,"792 W Lewis St, 92103",92103
+637,Murray Ridge Np,Murray Ridge Park,Local,"8651 Celestine Avenue, 92123",92123
+638,Princess Del Cerro Np,Princess Del Cerro Park,Local,"6221 Wenrich Dr, 92120",92120
+641,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+642,Solana Highlands Np,Solana Highlands Park,Local,"3520 Long Run Drive, 92130",92130
+643,Riviera Del Sol Np,Riviera Del Sol Park,Local,"4524 Riviera Shores St, 92154",92154
+644,Sefton Np,Sefton Park,Local,"2508 Hotel Circle Pl, 92108",92107
+645,Stonebridge Np,Stonebridge Park,Local,15030 Sycamore Trail Rd.,92131
+647,South Crest Trails Np,South Crest Trails Park,Local,"3605 Beta St, 92113",92113
+649,Carmel Knollls Np,Carmel Knollls Park,Local,"4850 Carmel Knolls Dr., 92130",92130
+650,"Scripps, Ellen B Np","Scripps, Ellen B Park",Local,"1146 Coast Blvd, 92037",92037
+651,Cliffridge Np,Cliffridge Park,Local,"8301 Cliffridge Ave, 92037",92037
+652,Laureate/Mata Park Mp,Laureate/Mata Park,Local,"2219 Ave De La Playa, 92037",92037
+655,Palisades North Np,Palisades North Park,Local,"4937 Ocean Blvd, 92109",92109
+656,Western Hills Np,Western Hills Park,Local,"4810 Kane Street, 92110",92071
+658,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+659,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+661,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+662,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+663,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+668,Imperial Market Place,Imperial Market Place,Open Space,"4475 Imperial Ave, 92113",92113
+672,Morley Green Mp,Morley Green Park,Local, ,SK9 5NU
+673,Edward Tyler Cramer Np,Edward Tyler Cramer Park,Local, ,92111
+674,Canon Street Mp,Canon Street Park,Local, ,92106
+677,Pasatiempo Np,Pasatiempo Park,Local, ,92120
+678,Bedlow Np,Bedlow Park,Local, ,92119
+679,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+684,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+685,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+689,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+690,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+691,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+692,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+693,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+698,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+703,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+704,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+707,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+708,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+709,Carmel Grove Np,Carmel Grove Park,Local,"3799 Carmel View Road,",92130
+711,Ashley Falls Np,Ashley Falls Park,Local,"13030 Ashley Falls Drive., 92130",92130
+712,Carmel Creek Np,Carmel Creek Park,Local,"4260 Carmel Center Road, 92103",92130
+713,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+714,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+717,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+718,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+719,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+720,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+721,Weiss Mandell Eastgt Np,Weiss Mandell Eastgt Park,Local,"4202 Executive Dr, 92037",92037
+723,Corte Playa San Juan Mp,Corte Playa San Juan Park,Local,"5111 Corte Playa San Juan, 92124",92124
+724,Cuvier Mp,Cuvier Park,Local,"528 Coast Blvd, 92037",92037
+725,Cypress Valley Mp,Cypress Valley Park,Local,"11871 Stonedale Ct., 92131",92131
+726,Ocean Beach Athletic Area Robb Field,Ocean Beach Athletic Area Robb Field,Regional,"2525 Bacon Street, 92107",92107
+729,Pearlman Mp,Pearlman Park,Local,"5404 Carmel Knolls Dr., 92130",92130
+730,Saratoga  Np,Saratoga  Park,Local,"5151 Saratoga Ave, 92107",92107
+731,Soledad Natural Park,Soledad Natural Park,Local,"7016 Soledad Park Rd, 92037",92037
+733,Vail Creek Np,Vail Creek Park,Local,"5116 Carmel Knolls Dr, 92130",92130
+734,Via Playa Los Santos Mp,Via Playa Los Santos Park,Local,"5112 Via Playa Los Santos, 92124",92124
+735,Walls Of Excellence Mp,Walls Of Excellence Park,Local,"4932 Imperial Ave, 92102",92113
+737,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+741,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+745,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+748,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+749,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+754,Winterwood Lane Np,Winterwood Lane Park,Local,"7540 Winterwood Ln, 92126",92126
+756,Mccain Mp,Mccain Park,Local,"3032 39Th St, 92105",92101
+757,Neighborhood 8 Np,Neighborhood 8 Park,Local,"11900 Carmel Creek Rd,92130",92130
+759,Ward Canyon Np,Ward Canyon Park,Local,"4642 40Th St, 92116",92116
+760,Golden Hill Cp,Golden Hill Park,Local,2600 Golf Course Dr. 92102,92102
+761,Childrens Park,Childrens Park,Local," 155 W Island Ave, 92101",92101
+762,Sun Ridge Vista Mini-Park,Sun Ridge Vista Mini-Park,Open Space, ,92129
+765,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+769,Clear. Site 645,Clear. Site 645,Open Space, ,92105
+770,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+771,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+774,Clear. Site 762,Clear. Site 762,Open Space, ,92114
+776,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+777,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+780,Clear. Site 571,Clear. Site 571,Open Space, ,92116
+783,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+785,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+786,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+787,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+789,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+791,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+793,San Diego River Park Os,San Diego River Park Open Space,Open Space, ,92108
+795,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+796,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+799,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+801,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+805,Cypress Canyon Os,Cypress Canyon Open Space,Open Space, ,92131
+807,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+809,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+811,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+813,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+817,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+818,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+821,Old Trolley Barn Park,Old Trolley Barn Park,Open Space, ,92116
+822,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+823,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+826,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+828,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+830,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+831,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+842,Radio Canyon Extension Os,Radio Canyon Extension Open Space,Open Space, ,92114
+843,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+844,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+845,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+846,Torrey Hills Os,Torrey Hills Open Space,Open Space, ,92130
+847,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+849,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+850,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+851,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+853,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+854,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+856,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+857,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+862,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+863,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+864,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+865,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+866,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+868,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+871,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+873,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+875,Fairbanks Country Club Os,Fairbanks Country Club Open Space,Open Space, ,92067
+876,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+880,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+884,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+886,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+889,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+892,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+893,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+895,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+896,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+898,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+899,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+901,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+903,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+905,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+907,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+908,Famosa Slough,Famosa Slough,Open Space, ,92107
+909,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+912,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+913,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+914,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+915,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+917,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+918,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+920,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+924,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+927,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+928,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+931,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+934,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+935,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+937,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+938,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+940,Old Trolley Barn Park,Old Trolley Barn Park,Open Space, ,92116
+941,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+944,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+945,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+947,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+948,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+950,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+952,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+953,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+956,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+959,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+962,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+966,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+968,Lopez Canyon Os,Lopez Canyon Open Space,Open Space, ,92121
+971,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+975,Fairbanks Country Club Os,Fairbanks Country Club Open Space,Open Space, ,92067
+976,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+979,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+983,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+991,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+994,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+996,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+997,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1000,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1002,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1003,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1006,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+1007,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1008,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1009,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1012,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1014,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1015,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1016,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1017,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1018,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1020,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+1025,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1032,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1033,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1034,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1036,Pottery Canyon Natural Os Park,Pottery Canyon Natural Open Space Park,Open Space, ,92111
+1039,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+1041,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1042,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1051,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1052,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1053,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1054,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1057,Torrey Hills Os,Torrey Hills Open Space,Open Space, ,92130
+1058,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1059,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1060,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1064,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1067,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1071,Valencia Canyon Os,Valencia Canyon Open Space,Open Space, ,91977
+1072,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1075,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1076,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1077,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1078,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1079,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1080,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1081,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1084,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1086,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1087,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1088,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1089,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1090,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1093,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1096,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1097,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1098,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1099,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1100,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1101,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1104,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1105,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1106,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1111,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1112,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1119,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1121,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1122,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1123,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1127,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1129,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1131,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1133,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1134,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1135,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1136,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1138,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1141,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1142,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1147,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1149,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1150,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+1153,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1156,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+1159,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1161,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1163,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1164,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1166,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1167,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1168,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1169,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1170,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1173,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1175,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1176,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+1177,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1178,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1182,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1186,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1187,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1190,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1194,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1195,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1197,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1198,Carmel Mountain Ranch Os,Carmel Mountain Ranch Open Space,Open Space, ,92128
+1202,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1203,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1204,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1205,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1206,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1207,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1209,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1211,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+1212,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1214,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1217,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1218,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1227,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1228,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1232,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1236,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1240,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1241,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+1249,Mt Woodson Os,Mt Woodson Open Space,Open Space, ,92121
+1250,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+1251,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1255,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1257,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1262,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1263,Old Trolley Barn Park,Old Trolley Barn Park,Open Space, ,92116
+1265,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1269,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1270,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+1272,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1274,Lopez Canyon Os,Lopez Canyon Open Space,Open Space, ,92121
+1275,Del Cerro Os,Del Cerro Open Space,Open Space, ,92120
+1277,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1278,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1280,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1281,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1282,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1284,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1287,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1291,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+1292,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1295,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1296,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1298,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1300,Carmel Mission Park,Carmel Mission Park,Open Space, ,92130
+1303,Ocean View Hills Os,Ocean View Hills Open Space,Open Space, ,92154
+1304,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+1310,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+1312,Famosa Slough,Famosa Slough,Open Space, ,92107
+1313,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1314,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1315,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1318,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1319,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1320,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1322,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1329,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+1330,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1331,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1333,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+1335,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1337,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1339,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1341,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1342,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1345,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1347,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1348,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1349,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1351,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1352,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1353,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1354,Tierrasanta Os,Tierrasanta Os,Open Space, ,92124
+1355,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1356,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1357,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1358,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1359,Mission Trails Os,Mission Trails Os,Open Space, ,92120
+1360,Mission Trails Os,Mission Trails Os,Open Space, ,92120
+1362,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1363,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1364,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1365,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1367,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1368,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1370,Cypress Canyon Os,Cypress Canyon Open Space,Open Space, ,92131
+1371,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+1373,Clear. Site 641,Clear. Site 641,Open Space, ,92105
+1374,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1378,Fairbanks Ranch Country Club,Fairbanks Ranch Country Club,Open Space, ,92067
+1380,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1382,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1387,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1391,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1393,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1395,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+1396,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1397,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1398,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1400,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1401,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1402,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1404,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1406,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1412,Encanto Park,Encanto Park,Open Space, ,92114
+1413,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1415,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1416,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1420,Del Mar Mesa Vernal Pool Os,Del Mar Mesa Vernal Pool Open Space,Open Space, ,92130
+1421,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1422,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+1423,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1424,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+1425,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+1427,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1428,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1431,Cypress Canyon Os,Cypress Canyon Open Space,Open Space, ,92131
+1432,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1433,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1434,Clear. Site 397,Clear. Site 397,Open Space, ,92108
+1436,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1438,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1439,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1440,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1441,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1442,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1450,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1452,Clear. Site 535,Clear. Site 535,Open Space, ,92116
+1454,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1458,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1459,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1464,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1465,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1466,Penasquitos Lagoon Os,Penasquitos Lagoon Open Space,Open Space, ,92121
+1468,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1469,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1474,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1481,Salk Neighborhood Park & Joint Use Facility,Salk Neighborhood Park & Joint Use Facility,Local,"Flanders Dr. & Parkdale Av., Southwest Of",92126
+1482,Fairbanks Country Club Os,Fairbanks Country Club Open Space,Open Space, ,92067
+1484,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1487,Ludington Heights Os Park,Ludington Heights Open Space Park,Open Space, ,49431
+1489,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+1492,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1496,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1502,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1507,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1508,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1512,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1514,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1520,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1521,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1522,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1523,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1525,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1534,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+1535,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+1536,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1537,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1542,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1546,Talmadge Hillsides Os,Talmadge Hillsides Open Space,Open Space, ,92115
+1550,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1555,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1559,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1560,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1561,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1563,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1564,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1565,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1566,Canyon View Park,Canyon View Park,Open Space, ,92131
+1567,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1569,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1576,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1577,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+1579,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1581,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1582,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1585,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1586,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1588,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1589,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1590,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1591,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1593,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+1596,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1597,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1600,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1601,Carmel Mountain Ranch Os,Carmel Mountain Ranch Open Space,Open Space, ,92128
+1602,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1603,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1604,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1606,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1609,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1611,Fairbanks Country Club Os,Fairbanks Country Club Open Space,Open Space, ,92067
+1613,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1615,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1616,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+1619,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1620,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1631,Encanto Park,Encanto Park,Open Space, ,92114
+1635,Fairbanks Country Club Os,Fairbanks Country Club Open Space,Open Space, ,92067
+1638,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1639,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+1643,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1649,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1652,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1653,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1656,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1657,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1658,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+1662,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1663,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1666,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1668,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1669,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1670,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1671,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1673,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+1674,Golden Hills Os,Golden Hills Open Space,Open Space, ,92102
+1676,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1679,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1680,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1682,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1684,Penasquitos Lagoon Os,Penasquitos Lagoon Open Space,Open Space, ,92121
+1685,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1688,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1689,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1690,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1691,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1692,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1700,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1701,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1703,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1705,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1707,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1709,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1710,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1717,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1723,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1724,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1725,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1726,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1729,Lopez Canyon Os,Lopez Canyon Open Space,Open Space, ,92121
+1730,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1734,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+1735,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1736,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1737,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1739,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+1740,Radio Canyon Extension Os,Radio Canyon Extension Open Space,Open Space, ,92114
+1746,Carmel Mountain Ranch Os,Carmel Mountain Ranch Open Space,Open Space, ,92128
+1747,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1751,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1752,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1754,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+1755,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+1758,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1759,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1760,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1761,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+1766,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+1767,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1770,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1771,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1772,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1773,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1774,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1775,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1776,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1777,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1778,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1779,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1782,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1785,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1786,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1787,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1788,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1789,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1790,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1791,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1793,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1794,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1795,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1796,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1797,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1798,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1799,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1800,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1801,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1802,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1803,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1804,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1807,Sandrock Canyon Os Park,Sandrock Canyon Open Space Park,Open Space, ,92123
+1808,Famosa Slough,Famosa Slough,Open Space, ,92107
+1810,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1811,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1812,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+1813,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+1815,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1827,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1829,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+1830,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1831,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1832,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1833,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1834,Battle Mountain Os,Battle Mountain Open Space,Open Space, ,92128
+1836,Battle Mountain Os,Battle Mountain Open Space,Open Space, ,92128
+1837,Battle Mountain Os,Battle Mountain Open Space,Open Space, ,92128
+1838,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1840,Women'S Club Park,Women'S Club Park,Local,Mission And Brooks,92109
+1844,Capistrano Park,Capistrano Park,Local,770 Capistrano Drive,92058
+1845,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1846,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1848,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1849,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1850,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1851,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1852,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1853,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+1860,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1861,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1864,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1865,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1866,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+1867,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1870,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1878,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1879,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1882,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1885,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+1890,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+1891,Valencia Canyon Os,Valencia Canyon Open Space,Open Space, ,91977
+1892,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1894,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1895,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1898,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1899,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+1900,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1901,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1902,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1903,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1909,John Landes Park,John Landes Park,Local,2855 Cedar Road,92056
+1910,Palisades Park,Palisades Park,Local,Rancho Del Oro And Vista Del Oro,92109
+1912,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1914,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1915,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1925,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1926,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1927,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1929,Battle Mountain Os,Battle Mountain Open Space,Open Space, ,92128
+1930,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+1931,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1933,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1934,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1936,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+1937,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1938,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1940,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1941,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1943,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1944,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+1945,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1946,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1947,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+1948,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1952,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+1954,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1956,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1957,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1958,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1963,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+1964,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1965,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1969,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+1970,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+1975,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1976,Pottery Canyon Natural Os Park,Pottery Canyon Natural Open Space Park,Open Space, ,92111
+1978,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+1979,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+1981,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+1982,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+1983,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+1985,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1987,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1988,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+1989,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+1990,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+1991,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+1993,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+1994,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+1999,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2000,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2001,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+2004,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2008,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2009,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+2011,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2012,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2013,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2014,Luiseno Park,Luiseno Park,Local,1069 Teal Way; Douglas & Vandergrift,92057
+2015,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2016,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2017,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2018,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2019,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2020,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2021,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2030,La Jolla Heights Natural Park,La Jolla Heights Natural Park,Open Space, ,92037
+2031,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2034,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2035,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2036,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2037,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2039,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+2042,Sandrock Canyon Os Park,Sandrock Canyon Open Space Park,Open Space, ,92123
+2044,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2045,Carmel View Renaissance Park Os,Carmel View Renaissance Park Open Space,Open Space, ,92130
+2046,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2049,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2052,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2053,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2054,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2057,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2061,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+2065,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2068,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+2070,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2075,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2080,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2084,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2089,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2092,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+2094,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+2095,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2096,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2097,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2100,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2102,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2103,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2104,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2105,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2107,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+2109,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+2110,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2112,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2113,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2114,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2116,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2117,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2118,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2119,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2124,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2126,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2128,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2129,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2130,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+2132,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+2135,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2136,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2138,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+2139,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2141,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2142,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2143,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2144,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2145,Paradise Canyon Park,Paradise Canyon Park,Open Space, ,92114
+2147,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2148,Carmel Mountain Ranch Os,Carmel Mountain Ranch Open Space,Open Space, ,92128
+2150,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+2154,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2159,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+2164,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2165,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2166,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2169,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2170,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+2171,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2173,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2174,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2175,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2176,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2177,Ludington Heights Os Park,Ludington Heights Open Space Park,Open Space, ,49431
+2178,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2179,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2181,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2182,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+2183,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2186,Chollas Creek Os,Chollas Creek Open Space,Open Space, ,92105
+2187,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2188,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2189,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+2190,Clear. Site 628,Clear. Site 628,Open Space, ,92117
+2191,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2198,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2199,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2206,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2207,Chollas Creek Os,Chollas Creek Open Space,Open Space, ,92105
+2209,Sorrento Hills Os,Sorrento Hills Open Space,Open Space, ,92130
+2211,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2213,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+2216,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2217,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2218,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2225,Crest Canyon Os Park,Crest Canyon Open Space Park,Open Space, ,92130
+2227,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2228,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2229,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+2230,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2231,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2233,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2234,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+2235,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2236,Clear. Site 675,Clear. Site 675,Open Space, ,92037
+2237,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+2238,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2239,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2241,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2242,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+2244,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2245,Fairbanks Ranch Country Club,Fairbanks Ranch Country Club,Open Space, ,92067
+2249,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2250,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2251,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2252,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2253,Battle Mountain Os,Battle Mountain Open Space,Open Space, ,92128
+2255,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2258,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2262,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2263,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2264,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2265,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2266,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2269,Mcgonigle Canyon Os,Mcgonigle Canyon Open Space,Open Space, ,92130
+2270,Del Mar Mesa Os,Del Mar Mesa Open Space,Open Space, ,92130
+2271,Sandrock Canyon Os Park,Sandrock Canyon Open Space Park,Open Space, ,92123
+2272,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2273,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2275,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2279,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2280,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2282,Shaw Valley Os,Shaw Valley Open Space,Open Space, ,92130
+2283,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2285,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2287,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2288,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2289,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2290,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2294,Fairbanks Country Club Os,Fairbanks Country Club Open Space,Open Space, ,92067
+2296,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2297,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2298,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+2304,Fairbrook Np,Fairbrook Park,Local, ,92131
+2305,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2307,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+2309,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2310,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+2311,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2312,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2313,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2316,Radio Canyon Extension Os,Radio Canyon Extension Open Space,Open Space, ,92114
+2317,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+2318,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+2319,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2320,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2321,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2322,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2324,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2325,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+2326,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2331,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2336,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+2338,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2339,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2340,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2344,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+2351,Scripps Miramar Os,Scripps Miramar Os,Open Space, ,92126
+2352,Scripps Miramar Os,Scripps Miramar Os,Open Space, ,92126
+2353,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2354,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2357,Buena Vista Lagoon Nature Center,Buena Vista Lagoon Nature Center,Local,2202 S. Coast Hwy,92054
+2358,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2364,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+2366,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2367,Marian Bear Os Park,Marian Bear Open Space Park,Open Space, ,92117
+2368,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2369,Indian Hill Os Park,Indian Hill Open Space Park,Open Space, ,92103
+2371,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2373,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2374,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2375,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2376,Navajo Canyon Os Park,Navajo Canyon Open Space Park,Open Space, ,92120
+2377,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2378,Carmel Mountain Os,Carmel Mountain Open Space,Open Space, ,92128
+2380,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2381,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2382,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2383,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2384,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2385,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2391,Mira Mesa Vernal Pool Os,Mira Mesa Vernal Pool Open Space,Open Space, ,92126
+2392,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2393,Ocean View Hills Os,Ocean View Hills Open Space,Open Space, ,92154
+2394,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2395,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2399,Eugene Place Os,Eugene Place Open Space,Open Space, ,92116
+2400,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2405,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2406,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2407,Valencia Canyon Os,Valencia Canyon Open Space,Open Space, ,91977
+2410,Adobe Falls Park Os,Adobe Falls Park Open Space,Open Space, ,92120
+2411,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2413,Otay Mitigation Site,Otay Mitigation Site,Open Space, ,92154
+2416,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2418,Ivey Ranch Park,Ivey Ranch Park,Local,4101 Mission Avenue,92057
+2419,Melba Bishop Park,Melba Bishop Park,Local,5306 North River Road,92057
+2420,Oceanside Dog Park,Oceanside Dog Park,Local,Jones & Slr,92058
+2423,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2427,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2428,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2429,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2430,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2431,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2432,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2433,Joseph Balderrama Park,Joseph Balderrama Park,Local,709 San Diego Street,92058
+2435,Encanto Park,Encanto Park,Open Space, ,92114
+2437,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2438,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2441,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2442,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2443,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2444,"Martin Luther King, Jr. Park","Martin Luther King, Jr. Park",Local,4300 Mesa Drive,92114
+2450,Del Mar Mesa Mitigation,Del Mar Mesa Mitigation,Open Space, ,92130
+2452,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2457,Penasquitos Lagoon Os,Penasquitos Lagoon Open Space,Open Space, ,92121
+2460,Joseph Carrasco Park,Joseph Carrasco Park,Local,Skylark Drive & Partridge,92054
+2462,Radio Canyon Extension Os,Radio Canyon Extension Os,Open Space, ,92114
+2463,Libby Lake Park,Libby Lake Park,Local,424 Calle Montecito,92057
+2464,Buddy Todd Park,Buddy Todd Park,Local,Mesa Drive And Parnassus Circle,92054
+2465,Marian Bear Os Park,Marian Bear Os Park,Open Space, ,92117
+2466,Marian Bear Os Park,Marian Bear Os Park,Open Space, ,92117
+2467,Marian Bear Os Park,Marian Bear Os Park,Open Space, ,92117
+2468,Marian Bear Os Park,Marian Bear Os Park,Open Space, ,92117
+2476,Clear. Site 761,Clear. Site 761,Open Space, ,92114
+2480,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2483,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2484,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2486,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2491,Marian Bear Os Park,Marian Bear Os Park,Open Space, ,92117
+2492,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2493,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2495,Scripps Miramar Os,Scripps Miramar Os,Open Space, ,92126
+2497,Marian Bear Os Park,Marian Bear Os Park,Open Space, ,92117
+2500,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2507,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2508,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2513,Rancho Mission Canyon Os,Rancho Mission Canyon Open Space,Open Space, ,92120
+2516,Bub Williamson Park,Bub Williamson Park,Local,530 Grapevine Rd,92083
+2518,Veterans Memorial Park,Veterans Memorial Park,Local,Paseo Santa Fe,92037
+2519,Soroptomist Parkette,Soroptomist Parkette,Local,Vista Village Dr. At S. Santa Fe Avenue,92083
+2530,Old Trolley Barn Park,Old Trolley Barn Park,Open Space, ,92116
+2532,Marlado Highlands Park,Marlado Highlands Park,Local,Rivertree And Southwood,92058
+2539,El Corazon Senior Center,El Corazon Senior Center,Local,El Corazon,92056
+2541,Sunshine Brooks Theater,Sunshine Brooks Theater,Local,Coast Hwy & Pier View,92054
+2542,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2543,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2544,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2545,Imperial Marketplace Os,Imperial Marketplace Os,Open Space, ,92113
+2546,Imperial Marketplace Os,Imperial Marketplace Os,Open Space, ,92113
+2547,Talmadge Hillsides Os,Talmadge Hillsides Open Space,Open Space, ,92115
+2548,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2549,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2550,Mission Valley Preserve,Mission Valley Preserve,Open Space, ,92110
+2551,South Bay Terraces Os,South Bay Terraces Open Space,Open Space, ,92139
+2557,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+2559,Cesar Chavez Park,Cesar Chavez Park,Local,Division Street,92101
+2560,Tyson Street Park,Tyson Street Park,Local,206 S Strand And Tyson,92054
+2563,Ron Ortega Recreation Park,Ron Ortega Recreation Park,Local,Brooks And Maxson,92054
+2566,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2567,Maple Canyon Os,Maple Canyon Open Space,Open Space, ,92103
+2568,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2570,Chollas Creek Os,Chollas Creek Open Space,Open Space, ,92105
+2573,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2575,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2576,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2577,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2578,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2579,Mance Buchanon Park,Mance Buchanon Park,Local,425 College Blvd,92057
+2583,Tecolote Canyon Natural Os Park,Tecolote Canyon Natural Open Space Park,Open Space, ,92110
+2586,La Zanja Canyon Os,La Zanja Canyon Open Space,Open Space, ,92091
+2588,San Pasqual Trails Os,San Pasqual Trails Open Space,Open Space, ,92025
+2589,Carmel Valley Cvrep,Carmel Valley Cvrep,Open Space, ,92130
+2590,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2600,Oak Riparian Park,Oak Riparian Park,Local,4625 Lake Boulevard,92056
+2601,South Oceanside School Park,South Oceanside School Park,Local,Cassidy And Stewart,92054
+2602,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2605,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2606,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2607,Mission Trails Os,Mission Trails Open Space,Open Space, ,92120
+2608,Tierrasanta Os,Tierrasanta Open Space,Open Space, ,92124
+2612,Scripps Miramar Os,Scripps Miramar Open Space,Open Space, ,92126
+2617,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2619,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2620,Otay Valley Regional Park,Otay Valley Regional Park,Open Space, ,92173
+2621,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2622,Canyon Hills Os,Canyon Hills Open Space,Open Space, ,92126
+2625,Felicita Park,Felicita County Park,Regional,"742 Clarence Lane, Escondido, Ca 92025",92029
+2626,Flinn Springs Park,Flinn Springs County Park,Regional,"14787 Old Highway 80, El Cajon, Ca 92021",92021
+2627,Goodland Acres Park,Goodland Acres County Park,Local,"8848 Troy St., Spring Valley, Ca 91977",91977
+2630,Blue Sky Ecological Reserve,Blue Sky Ranch Ecological Reserve,Open Space,"16275 Espola Road, Poway, Ca 92064",92064
+2631,Agua Caliente Park,Agua Caliente County Park,Regional,"39555 Great Southern Overland Stage Route Of 1849,",92036
+2637,Borrego Springs Park,Borrego Springs County Park,Open Space,"2600 Country Club Road, Borrego Springs, Ca 92004",92004
+2638,Boulder Oaks Preserve,Boulder Oaks County Preserve,Open Space,"15140 Mussey Grade Road, Ramona, Ca 92065",92065
+2639,Campo Stone Store,Campo Stone Store,Historic,"31130 State Highway 94, Campo, Ca 92006",91906
+2640,Chocolate Summit Preserve,Chocolate Summit County Preserve,Open Space,"9681 Chocolate Summit Drive, El Cajon, Ca 91901",92021
+2641,Collier Park,Collier County Park,Local,"626 E. St., Ramona, Ca 92065",92107
+2644,Damon Lane Park,Damon Lane County Park,Local,"11502 Calle Albara, El Cajon, Ca 92019",92019
+2646,Diamond Trail Preserve,Diamond Trail County Preserve,Open Space,"1671 Brighton Glen Road, San Marcos, Ca 92078",92130
+2648,Dos Picos Park,Dos Picos County Park,Regional,"17953 Dos Picos Park Road, Ramona, Ca 92065",92065
+2650,Eucalyptus Park,Eucalyptus County Park,Local,"9125 Edgewood Drive, Spring Valley, Ca 91977",91910
+2651,Fallbrook Community Center,Fallbrook Community Center,Local,"341 Heald Lane, Fallbrook, Ca 92028",92028
+2655,Hilton Head Park,Hilton Head County Park,Local,"1605 Hilton Head Road, El Cajon, Ca 92019",92019
+2656,Ildica Park,Ildica County Park,Local,"8604 Ildica St., Spring Valley, Ca 91977",91977
+2658,Jess Martin Park,Jess Martin County Park,Local,"2655 Highway 79, Julian, Ca 92036",92036
+2659,Rios Baseball Park,Rios Baseball Park,Local,"9700 Flinn Springs Road, El Cajon, Ca 92021",92021
+2660,Sage Hill Preserve,Sage Hill County Preserve,Open Space,"742 Clarence Lane, Escondido, Ca 92025",92029
+2661,San Elijo Lagoon Reserve,San Elijo Lagoon and Ecological Reserve,Open Space,"2710 Manchester Ave., Cardiff-By-The-Sea, Ca 92007",92007
+2662,Santa Margarita Preserve,Santa Margarita County Preserve,Open Space,"37385 De Luz Road, Fallbrook, Ca 92028",92028
+2663,Santa Ysabel East Preserve,Santa Ysabel East County Preserve,Open Space,"500 Farmer Road, Julian, Ca 92036",92036
+2664,Santa Ysabel West Preserve,Santa Ysabel West County Preserve,Open Space,"29510 Highway 78, Santa Ysabel, Ca 92070",92070
+2666,South Lane Park,South Lane County Park,Local,"218 South Lane, El Cajon, Ca 92021",92037
+2669,Knollwood Preserve,Knollwood County Preserve,Open Space,"29645 Platanus Drive, Escondido, Ca 92026",92114
+2670,Lake Morena Park,Lake Morena County Park,Regional,"2550 Lake Morena Drive, Campo, Ca 91906",91906
+2674,Lincoln Acres Park,Lincoln Acres County Park,Local,"2717 Granger Ave., National City, Ca 91950",91950
+2675,Lindo Lake Park,Lindo Lake County Park,Local,"12660 Lindo Lane, Lakeside, Ca 92040",92040
+2677,Lonny Brewer Park,Lonny Brewer County Park,Local,"10925 Fury Lane, El Cajon, Ca 92019",92019
+2678,Los Coches Historical Marker,Los Coches Historical Marker,Historic,Unk,92040
+2679,Lusardi Creek Preserve,Lusardi Creek County Preserve,Open Space,"16500 Rio Vista Road, San Diego, Ca 92127",92127
+2680,Magdalena Ecke Preserve,Magdalena Ecke County Preserve,Open Space,"2710 Manchester Ave. Cardiff, Ca 92007",92024
+2683,Mt. Olympus Preserve,Mt. Olympus County Preserve,Open Space,"7000 Mount Olympus Valley Road, Fallbrook Ca 92028",92126
+2685,Nancy Jane Park,Nancy Jane County Park,Local,"120 N. Park Drive, El Cajon, Ca 92021",92021
+2686,Old Ironsides Park,Old Ironsides County Park,Local,"326 Harbison Canyon Road, El Cajon, Ca 92020",92019
+2687,Old Springs Preserve,Old Springs County Preserve,Open Space,"2465 Old Springs Road, Borrego Springs, Ca 92004",92111
+2689,Pala Mesa Preserve,Pala Mesa County Preserve,Open Space,"220 Rice Canyon Road, Fallbrook, Ca 92028",92028
+2692,San Diego Botanic Garden,San Diego Botanic Garden,Local,"230 Quail Gardens Drive, Encinitas, Ca 92024",92024
+2694,Ramona Grasslands Preserve,Ramona Grasslands County Preserve,Open Space,"17460 Highland Valley Road, Ramona, Ca 92065",92065
+2696,Rancho Guajome Adobe,Rancho Guajome Adobe,Historic,"3000 Guajome Lake Road, Oceanside, Ca 92057",92083
+2697,Rancho Penasquitos Adobe,Rancho Penasquitos Adobe,Historic,"12122 Canyonside Park, San Diego 92129",92129
+2698,Steele Canyon Park,Steele Canyon County Park,Local,"2825 Steele Canyon Road, El Cajon, Ca 92019",92019
+2699,Sweetwater Lane Sports Complex,Sweetwater Lane Sports Complex,Local,Unk,91977
+2700,Del Dios Highlands Preserve,Del Dios Highlands County Preserve,Open Space,"9860 Del Dios Highway, Escondido, Ca 92025",92029
+2702,Santa Fe Valley Preserve,Santa Fe Valley Preserve,Open Space,"8600 Del Dios Highway, San Diego, Ca 92127",92127
+2703,Val Sereno Preserve,Val Sereno County Preserve,Open Space,"1756 Highland Drive, Del Mar, Ca 92104",92024
+2704,Vallecito Park,Vallecito County Park,Regional,"37349 Great Southern Overland Stage Route 1849, Ju",92037
+2706,Whaley House Complex,Whaley House Complex,Historic,"2476 San Diego Ave., San Diego, Ca 92110",92110
+2707,Wilderness Gardens Preserve,Wilderness Gardens County Preserve,Open Space,"14209 Highway 76, Pala, Ca 92059",92059
+2712,San Dieguito Park,San Dieguito County Park,Regional,"1756 Highland Drive, Del Mar, Ca 92014",92127
+2713,4S Ranch Liberty Park,4S Ranch Liberty Park,Local,"17750 Hunters Ridge Road, San Diego, Ca 92127",92127
+2714,Lakeside Equestrian Facility,Lakeside Equestrian Facility,Regional,Unk,92040
+2715,Otay Lakes Park,Otay Lakes County Park,Local,"2270 Weste Road, Chula Vista, Ca 91915",91915
+2716,Barnett Ranch Preserve,Barnett Ranch County Preserve,Open Space,"1500 Deviney Lane/San Vicente Road, Ramona, Ca 920",92065
+2718,Bottle Peak Preserve,Bottle Peak County Preserve,Open Space,Unk,92027
+2719,Waterfront Park,Waterfront Park,Regional,"1600 Pacific Highway, San Diego, Ca 92101",92101
+2720,Spring Valley Gym / Teen Ctr,Spring Valley Gymnasium / Teen Center,Local,"838 Kempton St., Spring Valley, Ca 91977",91977
+2721,Hellhole Canyon Preserve,Hellhole Canyon County Preserve,Open Space,"19324 Santee Lane, Valley Center, Ca 92082",92082
+2723,4S Ranch Sports Park,4S Ranch Sports Park,Local,"16118D 4S Ranch Parkway, San Diego, Ca 92127",92127
+2724,4S Ranch Patriot Park,4S Ranch Patriot Park,Local,"10502 Paseo De Linda, San Diego, Ca 92127",92127
+2725,4S Ranch Heritage Park,4S Ranch Heritage Park,Local,"16789 Deer Ridge Road, San Diego, Ca 92127",92127
+2726,4S Ranch Homestead Park,4S Ranch Homestead Park,Local,"9989 Fox Valley Road, San Diego, Ca 92127",92127
+2727,4S Ranch Community Park,4S Ranch Community Park,Local,"16118 4S Ranch Parkway, San Diego, Ca 92127",92127
+2728,Luelf Pond Preserve,Luelf Pond County Preserve,Open Space,"Corner Of Dye Road And Southern Oak Road, Ramona, ",92065
+2729,Holly Oaks Preserve,Holly Oaks County Preserve,Open Space,"3000 Dunck Pond Lane, Ramona, Ca 92065",92130
+2730,Spring Valley Community Center,Spring Valley Community Center,Local,"8735 Jamacha Blvd., Spring Valley, Ca 91977",91977
+2731,Lakeside Community Center,Lakeside Community Center,Local,"9841 Vine St., Lakeside, Ca 92040",92040
+2732,Sweetwater Regional Park,Sweetwater Regional Park,Regional,Unk,91902
+2733,Provence House,Provence House,Regional,"4370 Sweetwater Road, Bonita, Ca 91902",91902
+2734,Dictionary Hill Preserve,Dictionary Hill County Preserve,Open Space,"2036 S. Barcelona St, Spring Valley, Ca 91977",91977
+2737,Four Gee Park,Four Gee County Park,Local,"161180 4S Ranch Parkway, San Diego, Ca 92127",92127
+2739,Lakeside Teen Center,Lakeside Teen Center,Local,"9911 Vine St., Lakeside, Ca 92040",92040
+2741,Otay Valley Regional Park,Otay Valley Regional Park,Regional,"2270 Wueste Road, Chula Vista, Ca 91915",92173
+2742,Mt. Woodson Gateway Preserve,Mt. Woodson Gateway County Preserve,Open Space,"Mt Woodson Rd And Sr67, Ramona Ca 92065",92121
+2743,Oakoasis Preserve,Oakoasis County Preserve,Open Space,"12620 Wildcat Canyon Road, Lakeside, Ca 92040",92040
+2744,Louis A. Stelzer Park,Louis A. Stelzer County Park,Regional,"11470 Wildcat Canyon Road, Lakeside, Ca 92040",92040
+2745,Louis A. Stelzer Park,Louis A. Stelzer County Park,Regional,"11470 Wildcat Canyon Road, Lakeside, Ca 92040",92040
+2748,Sycamore Canyon / Goodan Ranch,Sycamore Canyon / Goodan Ranch County Preserve,Open Space,"16281 Sycamore Canyon Road, Poway, Ca 92064",92064
+2749,Sycamore Canyon / Goodan Ranch,Sycamore Canyon / Goodan Ranch County Preserve,Open Space,"16281 Sycamore Canyon Road, Poway, Ca 92064",92064
+2751,Cactus Park,Cactus County Park,Local,"10610 Ashwood St., Lakeside, Ca 92040",92040
+2752,Cactus Park,Cactus County Park,Local,"10610 Ashwood St., Lakeside, Ca 92040",92040
+2755,Lakeside Linkage Preserve,Lakeside Linkage County Preserve,Open Space,"9119 Manajo Road, Lakeside, Ca 92040",92021
+2756,Lakeside Linkage Preserve,Lakeside Linkage County Preserve,Open Space,"9119 Manajo Road, Lakeside, Ca 92040",92021
+2757,Old Ironsides Park,Old Ironsides County Park,Local,"326 Harbison Canyon Road, El Cajon, Ca 92019",92019
+2758,Ramona Grasslands Preserve,Ramona Grasslands County Preserve,Open Space,"17460 Highland Valley Road, Ramona, Ca 92065",92065
+2759,Calavo Park,Calavo Park,Local,Caltrans Deed,91978
+2764,San Luis Rey River Park,San Luis Rey River Park,Open Space,"5521 W. Lilac Road, Bonsall, Ca 92003",92003
+2765,Horse Creek Ridge Sports Park,Horse Creek Ridge Sports Park,Local,"240 Gold Palomino Way, Fallbrook Ca, 92028",92028
+2767,Harmony Grove Community Park,Harmony Grove Village Community Park,Local,"2982 Harmony Grove Road, Escondido, Ca 92029",92029
+2769,Sweetwater Place Park,Sweetwater Place Park,Local,Sweetwater Springs Boulevard And Jamacha Boulevard,91978
