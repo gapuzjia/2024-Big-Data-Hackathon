@@ -271,6 +271,31 @@ h3, h4 {
 
 /* --------END SEARCH PAGE------------ */
 
+/* --------RESOURCES PAGE-------- */
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Space between buttons */
+}
+
+.large-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Button height */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    font-size: 18px; /* Font size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.large-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* --------END RESOURCES PAGE------- */
 
 /*
     Add colors here
