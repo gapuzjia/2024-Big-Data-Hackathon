@@ -19,19 +19,5 @@
         </a>
         <button class="/help" type="button">?</button>
     </div>
-    <div class="wheel-container">
-        <canvas id="wheelCanvas" width="600" height="600"></canvas>
-        <button id="spinButton">Spin the Wheel!</button>
-        <div id="result-text" class="result-text"></div>
-    </div>    
-
-    <script id="prize-data" type="application/json">
-        {{ prizes | tojson | safe }}
-    </script>
-
-    <!-- Including the external script file where you use the prizeList variable -->
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-    <!-- Include the main JavaScript file -->
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
