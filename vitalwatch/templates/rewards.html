@@ -15,23 +15,31 @@
             <button type="button">Resources</button>
         </a>
         <a href="/rewards">
-           <button type="button">Rewards</button>
+            <button type="button">Rewards</button>
         </a>
-        <button class="/help" type="button">?</button>
+        <button class="help" type="button">?</button>
     </div>
-    <div class="wheel-container">
-        <canvas id="wheelCanvas" width="600" height="600"></canvas>
-        <button id="spinButton">Spin the Wheel!</button>
-        <div id="result-text" class="result-text"></div>
+    
+    <div id="container">
+        <div class="wheel-container">
+            <canvas id="wheelCanvas" width="600" height="600"></canvas>
+            <button id="spinButton">Spin the Wheel!</button>
+            <div id="result-text" class="result-text"></div>
+        </div>
+
+        <div class="info-container">
+            <h3>Your Points: <span id="points">0</span></h3>
+            <h3>Available Prizes from:</h3>
+            <ul id="prizeList">
+                <!-- Populate this list with JavaScript based on prizeList -->
+            </ul>
+        </div>
     </div>    
 
     <script id="prize-data" type="application/json">
         {{ prizes | tojson | safe }}
     </script>
 
-    <!-- Including the external script file where you use the prizeList variable -->
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-    <!-- Include the main JavaScript file -->
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
