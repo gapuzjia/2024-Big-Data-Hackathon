@@ -404,6 +404,28 @@ h3, h4
 }
 /* --------END RESOURCES PAGE------- */
 
+
+/* PROGRESS BAR */
+/* Progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    overflow: hidden;
+}
+
+/* Progress bar fill */
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Initial width of 0% */
+    background-color: #4caf50; /* Green progress bar */
+    border-radius: 10px; /* Rounded corners */
+    transition: width 0.4s ease; /* Smooth transition */
+}
+
+
 /*
     Add colors here
 */

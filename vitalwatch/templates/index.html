@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="/static/styles.css">
-
+    <title>To-Do List with Points</title>
 </head>
 <body>
     <main>
@@ -24,34 +24,30 @@
          </a>
      </div>
 
-
-        <!-- Progress bar -->
-        <div class="progress-container">
-            <div class="progress-bar" id="progress-bar"></div>
-        </div>
-
-        <!-- Table for both activities and health goals -->
+        <!-- Table for daily health goals -->
         <div class="row">
             <div class="column">
-                <!-- Table for daily health goals -->
                 <table>
                     <caption>Your Daily Health Goals</caption>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
                     <tr>
                         <td>
-                            <input type="checkbox" id="goal1" onclick="updateProgress()">
+                            <input type="checkbox" id="goal1" data-points="3">
                             <label for="goal1">Eat healthier</label>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="checkbox" id="goal2" onclick="updateProgress()">
+                            <input type="checkbox" id="goal2" data-points="5">
                             <label for="goal2">Exercise more</label>
                         </td>
                     </tr>
                 </table>
+                <h3>Your Points: <span id="points">20</span></h3>
             </div>
             <div class="column">
-                <!-- Activities for You -->
                 <div class="activity-buttons">
                     <h3>Activities for You</h3>
                     <div class="button-container">
@@ -63,18 +59,17 @@
             </div>
         </div>
 
-        <!-- Bottom chunk after tables which includes the music, color button, zipcode and map -->
         <div id="last">
             <div id="lowerPart">
                 <img id="music" src="https://t3.ftcdn.net/jpg/05/03/75/98/360_F_503759828_kadMu7Zxbk9jNrZE1JjFfVwkkgxqe6KS.jpg" width="145" height="75">
                 <button type="button">Change color scheme</button>
             </div>
             <div>
-               <!-- Search bar for zip code -->
-               <form action="/search" method="POST">
-                  <input type="text" name="query" placeholder="Enter a Zip Code" required>
-                  <button type="submit">Go!</button>
-              </form>
+                <!-- Search bar for zip code -->
+                <form action="/search" method="POST">
+                    <input type="text" name="query" placeholder="Enter a Zip Code" required>
+                    <button type="submit">Go!</button>
+                </form>
             </div>
             <div>
                 <!-- Map here -->
@@ -89,12 +84,9 @@
                     referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
-
             </div>
-            
-
         </div>
    </main>
-   <script>src="script.js"</script>
+   <script src="static/script.js"></script> <!-- Ensure the script is linked properly -->
 </body>
 </html>
