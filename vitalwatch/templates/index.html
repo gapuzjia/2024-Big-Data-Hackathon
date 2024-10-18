@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
     <title>To-Do List with Points</title>
 </head>
 <body>
@@ -28,20 +33,20 @@
         <div class="row">
             <div class="column">
                 <table>
-                    <caption>Your Daily Health Goals</caption>
+                    <caption id="healthGoalsCaption">Your Daily Health Goals</caption>
                     <div class="progress-container">
                         <div class="progress-bar" id="progress-bar"></div>
                     </div>
                     <tr>
                         <td>
                             <input type="checkbox" id="goal1" data-points="3">
-                            <label for="goal1">Eat healthier</label>
+                            <label for="goal1" class="healthGoals">Eat healthier</label>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <input type="checkbox" id="goal2" data-points="5">
-                            <label for="goal2">Exercise more</label>
+                            <label for="goal2" class="healthGoals">Exercise more</label>
                         </td>
                     </tr>
                 </table>
