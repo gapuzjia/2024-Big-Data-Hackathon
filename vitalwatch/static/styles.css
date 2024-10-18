@@ -123,10 +123,9 @@ body
 
 
 /* help button */
-#menu_bar .help 
-{
-    background-color: #ea0505; /* Color for the help button */
-    color: yellow;
+#menu_bar .help {
+    background-color: #ea0505 !important; /* Red background */
+    color: yellow !important; /* Yellow text */
 }
 
 /* Hover effect: buttons */
