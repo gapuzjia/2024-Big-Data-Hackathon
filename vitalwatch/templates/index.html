@@ -126,10 +126,12 @@
             </div>
             <div>
                 <!-- Search bar for zip code -->
-                <form action="/search" method="POST">
-                    <input type="text" name="query" placeholder="Enter a Zip Code" required>
-                    <button type="submit">Go!</button>
-                </form>
+                <div class="search-container">
+                    <form action="/search" method="POST">
+                        <input type="text" class="search-input" name="query" placeholder="Enter a Zip Code" required>
+                        <button type="submit" class="search-button">Go!</button>
+                    </form>
+                </div>
             </div>
             <div>
                 <!-- Map here -->
