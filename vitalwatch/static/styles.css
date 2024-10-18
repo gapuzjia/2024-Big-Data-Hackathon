@@ -347,6 +347,37 @@ input[type="checkbox"]:checked + label
     padding: 0; /* Remove padding */
 }
 
+.popup
+{
+    display: none; /* Hides he popup by default*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6); /* semi-transparent background*/
+    z-index: 1000;
+}
+
+.popup-content
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20% auto;
+    text-align: center;
+    position: relative;
+}
+
+.close
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
 
 /* END WHEEL------------------- */
 
