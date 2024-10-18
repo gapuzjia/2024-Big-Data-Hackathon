@@ -53,6 +53,10 @@ def events():
 def restaurants():
     return render_template('restaurants.html')
 
+@app.route('/map')
+def map():
+    return render_template('map.html')
+
 
 @app.route('/search', methods=['GET', 'POST'])
 def search():

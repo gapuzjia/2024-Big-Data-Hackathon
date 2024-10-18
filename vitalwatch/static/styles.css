@@ -223,15 +223,22 @@ tr:hover
     gap: 20px; /* Space between the button container and buttons */
 }
 
-.button-container 
-{
-    display: flex;
-    justify-content: space-between; 
-    width: 100%; 
+.button-container {
+    display: flex;               /* Enables horizontal layout */
+    gap: 20px;                   /* Adds space between buttons */
+    justify-content: space-around; /* Aligns buttons with space between them */
+    flex-wrap: wrap;             /* Allows wrapping if container is too small */
 }
 
-.large-button 
-{
+/* Ensures small buttons are stacked under the corresponding large button */
+.small-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; /* Add margin to push small buttons below the large button */
+    gap: 10px; /* Space between the small buttons */
+}
+
+.large-button {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 550;
@@ -248,10 +255,10 @@ tr:hover
     display: flex;
     align-items: center; 
     justify-content: center; 
+    margin-bottom: 10px; /* Add margin to keep spacing below large button */
 }
 
-.large-button:hover 
-{
+.large-button:hover {
     background-color: #0056b3; /* Darker shade on hover */
 }
 /* circular checkboxes */
@@ -308,6 +315,31 @@ input[type="checkbox"]:checked + label
     white-space: nowrap;
 }
 /* --------END MAIN PAGE------- */
+
+/* Styles for the small buttons */
+.small-button {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    width: 100%; /* Full width button */
+    height: 50px; /* Smaller height */
+    background-color: #28a745; /* Green color for small buttons */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 10px; /* Same border radius as large button */
+    font-size: 16px; /* Slightly smaller font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.small-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
 
 /* #WHEEL ----------------*/
 .wheel-container 
