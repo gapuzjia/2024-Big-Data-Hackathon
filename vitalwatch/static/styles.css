@@ -561,11 +561,10 @@ h1
 
 h3, h4 
 {
-    margin: 0; /* Remove default margins */
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 450;
-    font-style: normal;
+    font-weight: 500;
+    text-align: center; /* Center the text within the column */
+    margin: 20px 0; /* Add some margin for spacing */
 }
 
 
