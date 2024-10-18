@@ -514,14 +514,22 @@ h3, h4
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px; /* Space between icon and text */
     height: 150px; /* Increased button height for emphasis */
     background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient for buttons */
     color: white; /* White text color */
-    font-size: 20px; /* Larger font size */
+    font-size: 30px; /* Larger font size */
     text-decoration: none; /* Remove underline */
     border-radius: 10px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.2s; /* Smooth color transition and scale effect */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance button shadow */
+}
+
+/* Style the icons to match the font size */
+.large-btn img.icon {
+    width: 1em; /* Icon size matching font size */
+    height: auto;
+    vertical-align: middle; /* Align the icon with the text */
 }
 
 /* Hover effect */
@@ -572,6 +580,56 @@ h3, h4
 }
 
 /* --------END RESOURCES PAGE------- */
+
+
+
+/* Grid container for the result columns */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.result-column h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    color: #0051B3;
+    margin-bottom: 20px;
+}
+
+/* Styling for the result boxes */
+.result-box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation on hover */
+}
+
+.result-box:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.result-box p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #042698;
+    margin: 8px 0;
+}
+
+.result-box strong {
+    font-weight: 600;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack all boxes vertically on smaller screens */
+    }
+}
 
 /*variable for font*/
 .monsFont
