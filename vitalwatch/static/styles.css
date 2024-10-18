@@ -778,6 +778,7 @@ h3, h4
 /*point counter style*/
 #pointCounter
 {
+    margin: auto; 
     width: fit-content;
     background: linear-gradient(135deg, #007BFF, #0056b3); /*  light blue background */
     border-radius: 5px; 
