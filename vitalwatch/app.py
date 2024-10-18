@@ -86,7 +86,7 @@ def search():
                     range_results = pd.DataFrame()  # Initialize an empty DataFrame
 
                     for col in numeric_cols:
-                        within_range = df[df[col].between(zip_code - 2, zip_code + 2)]
+                        within_range = df[df[col].between(zip_code - 9, zip_code + 9)]
                         range_results = pd.concat([range_results, within_range], ignore_index=True)
 
                     range_results = range_results.drop_duplicates()
