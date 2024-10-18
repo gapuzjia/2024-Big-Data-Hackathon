@@ -21,6 +21,10 @@ body
 /* General button styling */
 #menu_bar button 
 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     width: 150px;
     background-color: #D4FFFD; /* Light blue background */
     color: #042698; /* Dark blue text */
@@ -208,6 +212,10 @@ tr:hover
 
 .large-button 
 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
     width: 100%; /* Each button takes up nearly half the width */
     height: 200px; /* Height of the button */
     background-color: #007BFF; /* Button color */
@@ -366,10 +374,21 @@ input[type="checkbox"] + label:before
     padding: 10px; /* Space inside the box */
     background-color: #f9f9f9; /* Light background for boxes */
 }
+h1
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+}
 
 h3, h4 
 {
     margin: 0; /* Remove default margins */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
 }
 
 
@@ -379,6 +398,10 @@ h3, h4
 
 .button-container 
 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; /* Space between buttons */
@@ -424,7 +447,30 @@ h3, h4
     border-radius: 10px; /* Rounded corners */
     transition: width 0.4s ease; /* Smooth transition */
 }
+.healthGoals
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
+}
+#healthGoalsCaption
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*variable for font*/
+.monsFont
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
 
 /*
     Add colors here
