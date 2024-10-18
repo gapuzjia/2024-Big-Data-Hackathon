@@ -1,3 +1,4 @@
+/* --------START MAIN PAGE------- */
 /* Body styles */
 body 
 {
@@ -10,7 +11,7 @@ body
 #menu_bar 
 {
     display: flex;
-    justify-content: space-around; /* Evenly spaces out buttons */
+    justify-content: space-around; 
     align-items: center;
     background-color: #0051B3;
     padding: 15px;
@@ -37,14 +38,14 @@ body
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Shadow */
 }
 
-/* Specific styling for the help button */
+/* help button */
 #menu_bar .help 
 {
     background-color: #ea0505; /* Color for the help button */
     color: yellow;
 }
 
-/* Hover effect for all buttons */
+/* Hover effect: buttons */
 #menu_bar button:hover 
 {
     background-color: #97dbff; /* Darker blue on hover */
@@ -52,7 +53,7 @@ body
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
-/* Active state for buttons */
+/* Active buttons */
 #menu_bar button:active 
 {
     background-color: #5dbbdb; /* Even darker blue for active state */
@@ -60,60 +61,44 @@ body
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
 }
 
-/* Dropdown container */
-.dropdown 
-{
-    position: relative; 
+/* PROGRESS BAR */
+/* Progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    overflow: hidden;
 }
 
-/* Hide dropdown content initially */
-.dropdown-content 
+/* Progress bar fill */
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Initial width of 0% */
+    background-color: #4caf50; /* Green progress bar */
+    border-radius: 10px; /* Rounded corners */
+    transition: width 0.4s ease; /* Smooth transition */
+}
+.healthGoals
 {
-    display: none;
-    position: absolute;
-    background-color: #f3feff; /* Background for dropdown */
-    min-width: 200px; 
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
-    z-index: 1000; 
-    padding: 10px 0;
-    list-style-type: none;
-    border-radius: 4px;
-    left: 50%; 
-    transform: translateX(-50%); 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#healthGoalsCaption
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
-/* Style individual dropdown links */
-.dropdown-content li a 
-{
-    color: #042698; /* Dark blue text */
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-/* Hover effect for dropdown links */
-.dropdown-content li a:hover 
-{
-    background-color: #97dbff; 
-    color: black;
-}
-
-/* Show dropdown content on hover */
-.dropdown:hover .dropdown-content 
-{
-    display: block;
-}
-
-/* Show dropdown content on button hover */
-.dropdown:hover .resource 
-{
-    background-color: #97dbff; /* Change button color when hovered */
-    color: black; /* Change text color */
-}
 
 /*
-Enhanced styling for page sections
+Lower page sections
 */
 #lowerPart 
 {
@@ -130,7 +115,7 @@ Enhanced styling for page sections
 {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(135deg, #f3feff 0%, #dfefff 100%); /* Light gradient background */
+    background: linear-gradient(135deg, #f3feff 0%, #dfefff 100%); /*  gradient background */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -234,6 +219,60 @@ tr:hover
 {
     background-color: #0056b3; /* Darker shade on hover */
 }
+/* circular checkboxes */
+input[type="checkbox"] 
+{
+    display: none; /* Hide default checkbox */
+}
+
+input[type="checkbox"] + label 
+{
+    position: relative;
+    padding-left: 35px; 
+    cursor: pointer;
+    font-size: 17px;
+    user-select: none; /* Prevent text selection on click */
+}
+
+input[type="checkbox"] + label:before 
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #042698; /* Dark blue border */
+    border-radius: 50%; /* Circular */
+    background-color: white;
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+/*  box when checked */
+input[type="checkbox"]:checked + label:before 
+{
+    background-color: #0051B3; /* Dark blue when checked */
+    border-color: #0051B3; /* Border matches background */
+}
+
+input[type="checkbox"]:checked + label 
+{
+    text-decoration: line-through; /* Strike-through checked items */
+    color: #6b6b6b; /* Dim color for checked items */
+}
+
+   
+.segment span 
+{
+    font-size: 14px;
+    text-align: center;
+    transform: rotate(90deg);
+    color: #333;
+    padding: 2px;
+    white-space: nowrap;
+}
+/* --------END MAIN PAGE------- */
 
 /* #WHEEL ----------------*/
 .wheel-container 
@@ -257,61 +296,7 @@ tr:hover
     transition: transform 4s ease-out;
 }
 
-/* Create custom styled circular checkboxes */
-input[type="checkbox"] 
-{
-    display: none; /* Hide default checkbox */
-}
 
-input[type="checkbox"] + label 
-{
-    position: relative;
-    padding-left: 35px; 
-    cursor: pointer;
-    font-size: 17px;
-    user-select: none; /* Prevent text selection on click */
-}
-
-/* Create the blue circle for the checkbox */
-input[type="checkbox"] + label:before 
-{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    border: 2px solid #042698; /* Dark blue border */
-    border-radius: 50%; /* Circular */
-    background-color: white;
-    transition: background-color 0.3s, border-color 0.3s; 
-}
-
-/* Style when the checkbox is checked */
-input[type="checkbox"]:checked + label:before 
-{
-    background-color: #0051B3; /* Dark blue when checked */
-    border-color: #0051B3; /* Border matches background */
-}
-
-/* Change style for checked labels */
-input[type="checkbox"]:checked + label 
-{
-    text-decoration: line-through; /* Strike-through checked items */
-    color: #6b6b6b; /* Dim color for checked items */
-}
-
-   
-.segment span 
-{
-    font-size: 14px;
-    text-align: center;
-    transform: rotate(90deg);
-    color: #333;
-    padding: 2px;
-    white-space: nowrap;
-}
 
 /* Container for the wheel and information sections */
 #container 
@@ -410,6 +395,10 @@ h3, h4
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; /* Space between buttons */
+    padding: 20px; /* Padding around the grid */
+    background-color: #f3feff; /* Light blue background */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .large-btn 
@@ -417,56 +406,64 @@ h3, h4
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Button height */
-    background-color: #007BFF; /* Button color */
-    color: white; /* Text color */
-    font-size: 18px; /* Font size */
+    height: 150px; /* Increased button height for emphasis */
+    background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient for buttons */
+    color: white; /* White text color */
+    font-size: 20px; /* Larger font size */
     text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth color transition */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth color transition and scale effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance button shadow */
 }
 
+/* Hover effect */
 .large-btn:hover 
 {
-    background-color: #0056b3; /* Darker shade on hover */
+    background: linear-gradient(135deg, #0056b3, #004080); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }
+
+/* effect for click */
+.large-btn:active 
+{
+    transform: scale(0.95); /* Slightly shrink on click */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reduce shadow when pressed */
+}
+
+.large-btn:hover::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.large-btn:hover::before {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .button-container {
+        grid-template-columns: 1fr; /* Stack buttons vertically on very small screens */
+    }
+    .large-btn {
+        height: 120px; /* Reduce height for smaller screens */
+    }
+}
+
 /* --------END RESOURCES PAGE------- */
-
-
-/* PROGRESS BAR */
-/* Progress bar container */
-.progress-container {
-    width: 100%;
-    background-color: #e0e0e0; /* Light grey background */
-    border-radius: 10px;
-    margin-bottom: 20px;
-    height: 25px;
-    overflow: hidden;
-}
-
-/* Progress bar fill */
-.progress-bar {
-    height: 100%;
-    width: 0%; /* Initial width of 0% */
-    background-color: #4caf50; /* Green progress bar */
-    border-radius: 10px; /* Rounded corners */
-    transition: width 0.4s ease; /* Smooth transition */
-}
-.healthGoals
-{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-
-}
-#healthGoalsCaption
-{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
 
 /*variable for font*/
 .monsFont
