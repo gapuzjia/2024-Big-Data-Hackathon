@@ -254,36 +254,45 @@ import time
 # Initialize the Nominatim geocoder
 geolocator = Nominatim(user_agent="geoapiExercises")
 
-# Initialize the Nominatim geocoder
-geolocator = Nominatim(user_agent="geoapiExercises")
 
-df1 = pd.read_csv('rec_centers_datasd.csv')
-df2 = pd.read_csv('LocalLibraryLocations.csv')
-df3 = pd.read_csv('parks_datasd.csv')
-df4 = pd.read_csv('Restaurants.csv')
+#df1 = pd.read_csv('Restaurants.csv')
+df2 = pd.read_csv('rec_centers_datasd.csv')
+df3 = pd.read_csv('LocalLibraryLocations.csv')
+df4 = pd.read_csv('parks_datasd.csv')
 
 # Prepare a list of DataFrames and their corresponding address column names
 dfs = [
-    {'df': df1, 'address_col': 'address'},
-    {'df': df2, 'address_col': 'address'},
-    {'df': df3, 'address_col': 'location'},
-    {'df': df3, 'address_col': 'Address'},
+    #{'df': df1, 'address_col': 'Address', 'name' : 'name'},
+    {'df': df2, 'address_col': 'address', 'name' : 'name'},
+    {'df': df3, 'address_col': 'address', 'name' : 'name'},
+    {'df': df4, 'address_col': 'location', 'name' : 'name'},
+    
 ]
 
+import pandas as pd
+import googlemaps
+import folium
+import time
+
+# Replace 'YOUR_API_KEY' with your actual Google Geocoding API key
+gmaps = googlemaps.Client(key='AIzaSyBvK-9gnEPbxgcqAJTYKby_DVRrap9yr9o')
+
 # Prepare a list of DataFrames
-dfs = [df1, df2, df3]
+dfs = [df2, df3, df4]
 
 # List of marker colors to assign to each DataFrame dynamically
 marker_colors = ['red', 'blue', 'green', 'purple', 'orange']
 
-# Function to geocode an address and return latitude and longitude
-def geocode_address(address):
+# Function to geocode an address using the Google API and return latitude and longitude
+def geocode_address_google(address):
     print(f"Geocoding: {address}")
     try:
-        location = geolocator.geocode(address)
-        if location:
-            print(f"Success: {address} -> ({location.latitude}, {location.longitude})")
-            return location.latitude, location.longitude
+        geocode_result = gmaps.geocode(address)
+        if geocode_result:
+            lat = geocode_result[0]['geometry']['location']['lat']
+            lon = geocode_result[0]['geometry']['location']['lng']
+            print(f"Success: {address} -> ({lat}, {lon})")
+            return lat, lon
         else:
             print(f"Failed to geocode: {address}")
             return None, None
@@ -301,9 +310,9 @@ for i, df in enumerate(dfs):
     print(f"\nProcessing DataFrame {i+1} with color: {color}")
     
     for index, row in df.iterrows():
-        name = row['name']
         address = row['address']
-        lat, lon = geocode_address(address)
+        name = row['name']
+        lat, lon = geocode_address_google(address)
 
         # Only place a pin if geocoding was successful
         if lat and lon:
@@ -313,11 +322,11 @@ for i, df in enumerate(dfs):
                 icon=folium.Icon(color=color)  # Use the dynamically assigned color
             ).add_to(my_map)
 
-        # Add a delay to avoid overwhelming the geocoding service
+        # Add a delay to avoid overwhelming the API (optional, depending on your usage limit)
         time.sleep(1)
 
 # Save the map to an HTML file
-my_map.save('color_coded_map.html')
+my_map.save('color_coded_map_google.html')
 
 # Inform user of completion
-print("Map has been saved as 'color_coded_map.html'.")
+print("Map has been saved as 'color_coded_map_google.html'.")
