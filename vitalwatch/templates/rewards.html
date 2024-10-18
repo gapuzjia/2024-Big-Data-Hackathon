@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <title>Search Datasets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--header bar for website with buttons to direct user to the correct page-->
     <div id="menu_bar">
-        <a href="/" class="button">Home</a>
-        <a href="/resources" class="button">Resources</a>
-        <a href="/rewards" class="button">Rewards</a> <!-- Link to Rewards page -->
-        <a href="/help" class="button">?</a>
-     </div>
-   
+        <a href="/">
+            <button type="button">Home</button>
+        </a>
+        <a href="/resources">
+            <button type="button">Resources</button>
+        </a>
+        <a href="/rewards">
+            <button type="button">Rewards</button>
+        </a>
+        <button class="help" type="button">?</button>
+    </div>
+    
+    <div id="container">
+        <div class="wheel-container">
+            <canvas id="wheelCanvas" width="600" height="600"></canvas>
+            <button id="spinButton">Spin the Wheel!</button>
+            <div id="result-text" class="result-text"></div>
+        </div>
+
+        <div class="info-container">
+            <h3>Your Points: <span id="points">0</span></h3>
+            <h3>Available Prizes from:</h3>
+            <ul id="prizeList">
+                <!-- Populate this list with JavaScript based on prizeList -->
+            </ul>
+        </div>
+    </div>    
+
+    <script id="prize-data" type="application/json">
+        {{ prizes | tojson | safe }}
+    </script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

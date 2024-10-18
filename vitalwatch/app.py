@@ -7,17 +7,15 @@ app = Flask(__name__)
 # Load all datasets into a dictionary
 datasets = {
     'dataset1': pd.read_csv('datasets/BikeRoutes.csv'),
-    'dataset2': pd.read_csv('datasets/Libraries.csv'),
-    'dataset3': pd.read_csv('datasets/Parks.csv'),
-    'dataset4': pd.read_csv('datasets/RecreationCenters.csv')
+    'dataset2': pd.read_csv('datasets/Parks.csv'),
+    'dataset3': pd.read_csv('datasets/RecreationCenters.csv')
 }
 
 # Define columns to return for each dataset
 column_mapping  = {
     'dataset1': ['Road', 'Exit Street', 'Zip Code'],
-    'dataset2': ['Location', 'Address','Zip Code'],
-    'dataset3': ['Park', 'Location', 'Zip Code'],
-    'dataset4': ['Center', 'Address', 'Zip Code']
+    'dataset2': ['Park', 'Location', 'Zip Code'],
+    'dataset3': ['Center', 'Address', 'Zip Code']
 }
 
 @app.route('/')
@@ -31,12 +29,29 @@ def resources():
 # Load prizes from CSV
 prizes_df = pd.read_csv('datasets/Prizes.csv')  # Adjust path as necessary
 
+# Load all datasets into a dictionary (make sure your CSV files are in the correct format)
+prizes_df = pd.read_csv('datasets/Prizes.csv', encoding='ISO-8859-1')  # Specify encoding if needed
+prizes = prizes_df['Prize'].tolist()  # Assuming 'Prize' is the column name
+
 @app.route('/rewards')
 def rewards():
-    # Load prizes from CSV
-    prizes_df = pd.read_csv('datasets/Prizes.csv')  # Adjust the path as needed
-    prizes = prizes_df['Prize'].tolist()  # Assuming 'Prize' is the column name
     return render_template('rewards.html', prizes=prizes)
+
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
+@app.route('/museums')
+def museums():
+    return render_template('museums.html')
+
+@app.route('/events')
+def events():
+    return render_template('events.html')
+
+@app.route('/restaurants')
+def restaurants():
+    return render_template('restaurants.html')
 
 
 @app.route('/search', methods=['GET', 'POST'])

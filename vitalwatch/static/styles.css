@@ -1,12 +1,14 @@
 /* Body styles */
-body {
+body 
+{
     background-color: #f3feff; /* Light background blue */
     margin: 0;
     padding: 0;
 }
 
 /* Styling for the menu buttons */
-#menu_bar {
+#menu_bar 
+{
     display: flex;
     justify-content: space-around; /* Evenly spaces out buttons */
     align-items: center;
@@ -17,7 +19,12 @@ body {
 }
 
 /* General button styling */
-#menu_bar button {
+#menu_bar button 
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     width: 150px;
     background-color: #D4FFFD; /* Light blue background */
     color: #042698; /* Dark blue text */
@@ -31,32 +38,37 @@ body {
 }
 
 /* Specific styling for the help button */
-#menu_bar .help {
+#menu_bar .help 
+{
     background-color: #ea0505; /* Color for the help button */
     color: yellow;
 }
 
 /* Hover effect for all buttons */
-#menu_bar button:hover {
+#menu_bar button:hover 
+{
     background-color: #97dbff; /* Darker blue on hover */
     color: black; /* Change text color on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* Active state for buttons */
-#menu_bar button:active {
+#menu_bar button:active 
+{
     background-color: #5dbbdb; /* Even darker blue for active state */
     transform: scale(0.98); /* Slightly shrink on click */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Smaller shadow when pressed */
 }
 
 /* Dropdown container */
-.dropdown {
+.dropdown 
+{
     position: relative; 
 }
 
 /* Hide dropdown content initially */
-.dropdown-content {
+.dropdown-content 
+{
     display: none;
     position: absolute;
     background-color: #f3feff; /* Background for dropdown */
@@ -71,7 +83,8 @@ body {
 }
 
 /* Style individual dropdown links */
-.dropdown-content li a {
+.dropdown-content li a 
+{
     color: #042698; /* Dark blue text */
     padding: 12px 16px;
     text-decoration: none;
@@ -80,18 +93,21 @@ body {
 }
 
 /* Hover effect for dropdown links */
-.dropdown-content li a:hover {
+.dropdown-content li a:hover 
+{
     background-color: #97dbff; /* Light blue hover effect */
     color: black;
 }
 
 /* Show dropdown content on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content 
+{
     display: block;
 }
 
 /* Show dropdown content on button hover */
-.dropdown:hover .resource {
+.dropdown:hover .resource 
+{
     background-color: #97dbff; /* Change button color when hovered */
     color: black; /* Change text color */
 }
@@ -99,7 +115,8 @@ body {
 /*
 Enhanced styling for page sections
 */
-#lowerPart {
+#lowerPart 
+{
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -109,7 +126,8 @@ Enhanced styling for page sections
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-#last {
+#last 
+{
     display: flex;
     flex-direction: row;
     background: linear-gradient(135deg, #f3feff 0%, #dfefff 100%); /* Light gradient background */
@@ -121,28 +139,33 @@ Enhanced styling for page sections
 /*
 Enhanced style for activities and health goal tables
 */
-* {
+* 
+{
     box-sizing: border-box;
 }
 
-.row {
+.row 
+{
     display: flex;
 }
 
-.column {
+.column 
+{
     flex: 50%;
     padding: 50px;
 }
 
 /* Style for table captions */
-table caption {
+table caption 
+{
     font-size: 24px;
     font-weight: bold; /* Text bold */
     color: #042698;
     margin-bottom: 10px; /* Space below the caption */
 }
 
-table {
+table 
+{
     border-collapse: collapse;
     width: 100%;
     border: 2px solid #042698; /* Dark blue border */
@@ -152,7 +175,8 @@ table {
     font-size: 17px;
 }
 
-th, td {
+th, td 
+{
     text-align: left;
     padding: 16px;
     color: #042698; /* Dark blue text */
@@ -161,29 +185,81 @@ th, td {
 }
 
 /* Alternate row colors with smoother transitions */
-tr:nth-child(even) {
+tr:nth-child(even) 
+{
     background-color: rgba(202, 240, 248, 0.8); /* Lighter blue for alternate rows */
 }
 
 /* Hover effect for table rows */
-tr:hover {
+tr:hover 
+{
     background-color: #b0e5ff; /* Light blue highlight on hover */
 }
 
-/* Style checkboxes */
-input[type="checkbox"] {
-    display: none; /* Completely hide the default square checkbox */
+.activity-buttons 
+{
+    display: flex;
+    flex-direction: column; /* Stack button container vertically */
+    gap: 20px; /* Space between the button container and buttons */
 }
 
-/* Style for the label */
-input[type="checkbox"] + label {
+.button-container 
+{
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    width: 100%; /* Full width of the parent column */
+}
+
+.large-button 
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    width: 100%; /* Each button takes up nearly half the width */
+    height: 200px; /* Height of the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Slightly rounded corners */
+    font-size: 20px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.large-button:hover 
+{
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* #WHEEL ----------------*/
+.wheel-container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wheel 
+{
     position: relative;
-    padding-left: 30px; /* Space for the circular checkbox */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    width: 300px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: transform 4s ease-out;
 }
 
 /* Create the circular checkbox */
-input[type="checkbox"] + label:before {
+input[type="checkbox"] + label:before 
+{
     content: '';
     position: absolute;
     left: 0;
@@ -191,15 +267,15 @@ input[type="checkbox"] + label:before {
     transform: translateY(-50%); /* Center vertically */
     width: 20px;
     height: 20px; 
-    border: 2px solid #042698; /* Dark blue border */
-    border-radius: 50%; /* Circular */
+    border: 2px solid #042698; 
+    border-radius: 50%; /* circular */
     background: white; 
 }
 
 /* Change style when checkbox is checked */
 input[type="checkbox"]:checked + label:before {
-    background-color: #0051B3; /* Dark blue background when checked */
-    border-color: #0051B3; /* Keep border color dark blue */
+    background-color: #0051B3; 
+    border-color: #0051B3; 
 }
 
 /* Style for checked items */

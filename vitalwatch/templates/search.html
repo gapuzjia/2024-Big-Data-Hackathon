@@ -4,67 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <title>Search Datasets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Search</title>
 </head>
 <body>
-    <!--header bar for website with buttons to direct user to the correct page-->
+    <!-- Header bar for website with buttons to direct user to the correct page -->
     <div id="menu_bar">
-        <a href="/" class="button">Home</a>
-        <a href="/resources" class="button">Resources</a>
-        <a href="/rewards" class="button">Rewards</a> <!-- Link to Rewards page -->
-        <a href="/help" class="button">?</a>
-     </div>
-    <h1>Search Datasets</h1>
-    <form action="/search" method="POST">
-        <input type="text" name="query" placeholder="Search..." required>
-        <button type="submit">Search</button>
-    </form>
-    
-    {% if results %}
-    <h2>Search Results for "{{ query }}"</h2>
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-        {% for dataset_name, result in results.items() %}
-            <div>
-                <h3>
-                    {% if dataset_name == 'dataset1' %}
-                        Bike Routes
-                    {% elif dataset_name == 'dataset2' %}
-                        Libraries
-                    {% elif dataset_name == 'dataset3' %}
-                        Parks
-                    {% elif dataset_name == 'dataset4' %}
-                        Recreation Centers
-                    {% else %}
-                        {{ dataset_name }}
-                    {% endif %}
-                </h3>
-                {% if result.empty %}
-                    <p>No results found.</p>
-                {% else %}
-                    <table border="1">
-                        <thead>
-                            <tr>
-                                {% for column in column_mapping[dataset_name] %} <!-- Accessing column mapping -->
-                                    <th>{{ column }}</th>
-                                {% endfor %}
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for index in result.index %}
-                                <tr>
-                                    {% for column in column_mapping[dataset_name] %} <!-- Use the same mapping here -->
-                                        <td>{{ result.at[index, column] }}</td>
-                                    {% endfor %}
-                                </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                {% endif %}
-            </div>
-        {% endfor %}
+        <a href="/">
+            <button type="button">Home</button>
+        </a>
+        <a href="/resources">
+            <button type="button">Resources</button>
+        </a>
+        <a href="/rewards">
+            <button type="button">Rewards</button>
+        </a>
+        <button class="/help" type="button">?</button>
     </div>
-{% endif %}
 
-   
+    <!-- Centered heading -->
+    <h1>Outdoor Activities Near You</h1>
+
+    <!-- Container for search bar and search result text -->
+    <div class="search-container">
+        <form action="/search" method="POST">
+            <input type="text" name="query" placeholder="Search..." required>
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Display the "Activities near" text next to the search bar -->
+        {% if results %}
+            <span style="margin-left: 20px;">Activities near {{ query }}</span>
+        {% endif %}
+    </div>
+    
+    <!-- CSS grid for displaying results -->
+    <div class="grid-container">
+        <!-- Row for dataset headers -->
+        <div class="result-header">
+            <h3>Bike Routes</h3>
+            <h3>Parks</h3>
+            <h3>Recreation Centers</h3>
+        </div>
+
+        <!-- Bike Routes Results -->
+        <div class="result-column">
+            {% if results['dataset1'] is not none %}
+                {% for index in results['dataset1'].index %}
+                <div class="result-box">
+                    {% if results['dataset1'].at[index, column_mapping['dataset1'][0]] is not none %}
+                        <p>
+                            Entry Street: {{ results['dataset1'].at[index, column_mapping['dataset1'][0]] }}
+                            <span style="margin-left: 20px;">Exit Street: {{ results['dataset1'].at[index, column_mapping['dataset1'][1]] }}</span>
+                        </p>
+                    {% endif %}
+                    {% if results['dataset1'].at[index, column_mapping['dataset1'][2]] is not none %}
+                        <p>Zip Code: {{ results['dataset1'].at[index, column_mapping['dataset1'][2]] }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <!-- Parks Results -->
+        <div class="result-column">
+            {% if results['dataset2'] is not none %}
+                {% for index in results['dataset2'].index %}
+                    <div class="result-box">
+                        {% if results['dataset2'].at[index, column_mapping['dataset2'][0]] is not none %}
+                            <p>{{ results['dataset2'].at[index, column_mapping['dataset2'][0]] }}</p>
+                        {% endif %}
+                        {% if results['dataset2'].at[index, column_mapping['dataset2'][1]] is not none %}
+                            <p>Location: {{ results['dataset2'].at[index, column_mapping['dataset2'][1]] }}</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <!-- Recreation Centers Results -->
+        <div class="result-column">
+            {% if results['dataset3'] is not none %}
+                {% for index in results['dataset3'].index %}
+                    <div class="result-box">
+                        {% if results['dataset3'].at[index, column_mapping['dataset3'][0]] is not none %}
+                            <p>Center: {{ results['dataset3'].at[index, column_mapping['dataset3'][0]] }}</p>
+                        {% endif %}
+                        {% if results['dataset3'].at[index, column_mapping['dataset3'][1]] is not none %}
+                            <p>Address: {{ results['dataset3'].at[index, column_mapping['dataset3'][1]] }},
+                                {{ results['dataset3'].at[index, column_mapping['dataset3'][2]] }}
+                            </p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
 </body>
 </html>
