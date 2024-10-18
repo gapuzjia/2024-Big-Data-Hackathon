@@ -64,7 +64,14 @@
 
         <div id="last">
             <div id="lowerPart">
-                <img id="music" src="https://t3.ftcdn.net/jpg/05/03/75/98/360_F_503759828_kadMu7Zxbk9jNrZE1JjFfVwkkgxqe6KS.jpg" width="145" height="75">
+                <div id="musicPlayer">
+                    <!--Music with pause-play-reset functions-->
+                    <button onclick="pauseVideo()" type="button" id="pauseButton" class"musicButtons"> </button>
+                    <button onclick="playVideo()" type="button", id="playButton" class"musicButtons"></button>
+                    <video id="chillMusic" width="5" height="5">
+                        <source src="https://vgmsite.com/soundtracks/super-mario-64-soundtrack/abxhdlweox/36.%20Piranha%20Plant%27s%20Lullaby-Piano.mp3" type="video/mp4">
+                    </video>
+                </div>
                 <button type="button">Change color scheme</button>
             </div>
             <div>

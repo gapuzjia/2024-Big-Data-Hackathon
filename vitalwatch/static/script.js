@@ -1,3 +1,9 @@
+const video = document.getElementById("chillMusic"); 
+
+//set variable for pausing & playing video
+let playVideo = () => video.play();
+let pauseVideo = () => video.pause();
+
 document.addEventListener("DOMContentLoaded", () => 
 {
     // Initialize the points display and set default points to 20 (home page)
