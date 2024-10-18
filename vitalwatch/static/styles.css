@@ -514,14 +514,22 @@ h3, h4
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px; /* Space between icon and text */
     height: 150px; /* Increased button height for emphasis */
     background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient for buttons */
     color: white; /* White text color */
-    font-size: 20px; /* Larger font size */
+    font-size: 30px; /* Larger font size */
     text-decoration: none; /* Remove underline */
     border-radius: 10px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.2s; /* Smooth color transition and scale effect */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance button shadow */
+}
+
+/* Style the icons to match the font size */
+.large-btn img.icon {
+    width: 1em; /* Icon size matching font size */
+    height: auto;
+    vertical-align: middle; /* Align the icon with the text */
 }
 
 /* Hover effect */
@@ -572,6 +580,7 @@ h3, h4
 }
 
 /* --------END RESOURCES PAGE------- */
+
 
 
 /* Grid container for the result columns */
