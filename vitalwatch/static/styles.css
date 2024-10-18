@@ -10,22 +10,22 @@ body
 #musicPlayer {
     display: flex;
     flex-direction: row;
-    padding-top: 30px; /* Fixed padding property */
-    gap: 20px; /* Optional: Adds space between flex items */
+    padding-top: 30px;
+    gap: 25px; 
 }
 
 #search-container {
     display: flex;
     flex-direction: column;
-    margin-top: 20px; /* Adjust as needed for spacing */
+    margin-top: 25px;
 }
 
 #playButton {
     width: 74px;
     height: 74px;
     border-style: solid;
-    border-width: 37px 0px 37px 74px; /* Combined border properties */
-    border-color: transparent transparent transparent #202020;
+    border-width: 37px 0px 37px 74px; 
+    border-color: transparent transparent transparent #202021;
     box-sizing: border-box;
 }
 
@@ -33,8 +33,8 @@ body
     width: 74px;
     height: 74px;
     border-style: double;
-    border-width: 0px 37px 0px 37px; /* Combined border properties */
-    border-color: #202020;
+    border-width: 0px 37px 0px 37px; 
+    border-color: #202021;
 }
 
 
