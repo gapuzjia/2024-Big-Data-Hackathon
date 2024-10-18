@@ -554,9 +554,11 @@ input[type="checkbox"]:checked + label
 h1
 {
     font-family: "Montserrat", sans-serif;
+    text-align: center;
     font-optical-sizing: auto;
     font-weight: 650;
     font-style: normal;
+    color: #042698
 }
 
 h3, h4 
@@ -764,6 +766,48 @@ h3, h4
 .search-button:active {
     transform: scale(0.95); /* Slightly shrink on click */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reduce shadow when pressed */
+}
+
+/* Search container styling */
+.search-container {
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Align input and button on the same line */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Ensures the search input and button are on the same line */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling the search input */
+.search-input {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #042698; /* Dark blue border */
+    border-radius: 8px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+    width: 250px; /* Set a fixed width for the input field */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling the search button */
+.search-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-color: #007BFF; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance button shadow */
 }
 
 
