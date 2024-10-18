@@ -7,40 +7,36 @@ body
     padding: 0;
 }
 /*styling music player*/
-#musicPlayer
-{
+#musicPlayer {
     display: flex;
     flex-direction: row;
+    padding-top: 30px; /* Fixed padding property */
+    gap: 20px; /* Optional: Adds space between flex items */
 }
-#playButton
-{
+
+#search-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+#playButton {
     width: 74px;
     height: 74px;
     border-style: solid;
-    border-width: 37px;
-    border-color: #202020;
-    border-width: 37px 37px 37px 37px;
-    border-color: red blue green yellow;
-    border-width: 37px 0px 37px 74px;
-    border-color: red blue green yellow;
-    box-sizing: border-box;
-    width: 74px;
-    height: 74px;
-    border-width: 37px 0px 37px 74px;
+    border-width: 37px 0px 37px 74px; /* Combined border properties */
     border-color: transparent transparent transparent #202020;
+    box-sizing: border-box;
 }
-#pauseButton
-{
+
+#pauseButton {
     width: 74px;
     height: 74px;
-    border-style: solid;
-    border-width: 37px;
-    border-color: #202020;
     border-style: double;
-    border-width: 0px 37px 0px 37px;
-    border-width: 0px 0px 0px 37px;
+    border-width: 0px 37px 0px 37px; /* Combined border properties */
     border-color: #202020;
 }
+
 
 /* Styling for the menu buttons */
 #menu_bar 
@@ -488,37 +484,6 @@ input[type="checkbox"]:checked + label
     padding: 0; /* Remove padding */
 }
 
-.popup
-{
-    display: none; /* Hides he popup by default*/
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.6); /* semi-transparent background*/
-    z-index: 1000;
-}
-
-.popup-content
-{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    margin: 20% auto;
-    text-align: center;
-    position: relative;
-}
-
-.close
-{
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
-    cursor: pointer;
-}
 
 /* END WHEEL------------------- */
 
@@ -561,10 +526,11 @@ h1
 
 h3, h4 
 {
+    margin: 0; /* Remove default margins */
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    text-align: center; /* Center the text within the column */
-    margin: 20px 0; /* Add some margin for spacing */
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
 }
 
 
@@ -709,64 +675,6 @@ h3, h4
     }
 }
 
-/* FOR SEARCH BAR--------------------------------  */
-/* Search container styling */
-.search-container {
-    display: flex;
-    justify-content: center; /* Center the form horizontally */
-    align-items: center; /* Center the form vertically */
-    margin-top: 20px;
-    padding: 10px;
-}
-
-/* Styling the search input */
-.search-input {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    border: 2px solid #042698; /* Dark blue border */
-    border-radius: 8px; /* Rounded corners */
-    margin-right: 10px; /* Space between input and button */
-    width: 250px; /* Set a fixed width for the input field */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Focus state for input */
-.search-input:focus {
-    border-color: #0051B3; /* Darker blue on focus */
-    outline: none; /* Remove default focus outline */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on focus */
-}
-
-/* Styling the search button */
-.search-button {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    background-color: #007BFF; /* Button background color */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance button shadow */
-}
-
-/* Hover effect for button */
-.search-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly increase size on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
-}
-
-/* Active effect for button (on click) */
-.search-button:active {
-    transform: scale(0.95); /* Slightly shrink on click */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Reduce shadow when pressed */
-}
-
-
 /*variable for font*/
 .monsFont
 {
@@ -775,8 +683,6 @@ h3, h4
     font-weight: 500;
     font-style: normal;
 }
-
-
 
 /*
     Add colors here
