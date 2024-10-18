@@ -261,25 +261,217 @@ tr:hover
 input[type="checkbox"] + label:before 
 {
     content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%); /* Center vertically */
-    width: 20px;
-    height: 20px; 
-    border: 2px solid #042698; 
-    border-radius: 50%; /* circular */
-    background: white; 
+    .segment 
+    {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); /* Center vertically */
+        width: 20px;
+        height: 20px; 
+        border: 2px solid #042698; 
+        border-radius: 50%; /* circular */
+        background: white; 
+    }
+
+    /* Change style when checkbox is checked */
+    input[type="checkbox"]:checked + label:before 
+    {
+        background-color: #0051B3; 
+        border-color: #0051B3; 
+    }
+
+    /* Style for checked items */
+    input[type="checkbox"]:checked + label 
+    {
+        text-decoration: line-through; /* Strike-through checked items */
+        color: #6b6b6b; /* Dim color for checked items */
+    }
+
+    width: 50%;
+    height: 50%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    transform-origin: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Change style when checkbox is checked */
-input[type="checkbox"]:checked + label:before {
-    background-color: #0051B3; 
-    border-color: #0051B3; 
+.segment span 
+{
+    font-size: 14px;
+    text-align: center;
+    transform: rotate(90deg); /* Adjusts text to display properly */
+    color: #333;
+    padding: 2px;
+    white-space: nowrap;
 }
 
-/* Style for checked items */
-input[type="checkbox"]:checked + label {
-    text-decoration: line-through; /* Strike-through checked items */
-    color: #6b6b6b; /* Dim color for checked items */
+/* Container for the wheel and information sections */
+#container 
+{
+    display: flex;
+    justify-content: space-between; /* Space between the wheel and info */
+    padding: 20px; /* Add some padding around the container */
 }
+
+/* Wheel container styles */
+.wheel-container 
+{
+    flex: 1; /* Takes up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Info container styles */
+.info-container 
+{
+    flex: 1; /* Takes up available space */
+    background-color: #D4FFFD; /* Background color */
+    padding: 20px; /* Space inside the info container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Prize list styles */
+#prizeList 
+{
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+
+/* END WHEEL------------------- */
+
+
+/* ---------FOR SEARCH PAGE------------ */
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px; /* Space above the grid */
+}
+
+.result-header 
+{
+    display: contents; /* Makes the header take up no additional space */
+    grid-column: span 3; /* Spans the entire width */
+}
+
+.result-column 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.result-box 
+{
+    border: 1px solid #ccc; /* Light border around the box */
+    padding: 10px; /* Space inside the box */
+    background-color: #f9f9f9; /* Light background for boxes */
+}
+h1
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+}
+
+h3, h4 
+{
+    margin: 0; /* Remove default margins */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+
+/* --------END SEARCH PAGE------------ */
+
+/* --------RESOURCES PAGE-------- */
+
+.button-container 
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Space between buttons */
+}
+
+.large-btn 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Button height */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    font-size: 18px; /* Font size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.large-btn:hover 
+{
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* --------END RESOURCES PAGE------- */
+
+
+/* PROGRESS BAR */
+/* Progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    overflow: hidden;
+}
+
+/* Progress bar fill */
+.progress-bar {
+    height: 100%;
+    width: 0%; /* Initial width of 0% */
+    background-color: #4caf50; /* Green progress bar */
+    border-radius: 10px; /* Rounded corners */
+    transition: width 0.4s ease; /* Smooth transition */
+}
+.healthGoals
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#healthGoalsCaption
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*variable for font*/
+.monsFont
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*
+    Add colors here
+*/
