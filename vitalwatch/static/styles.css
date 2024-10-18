@@ -191,15 +191,15 @@ input[type="checkbox"] + label:before {
     transform: translateY(-50%); /* Center vertically */
     width: 20px;
     height: 20px; 
-    border: 2px solid #042698; 
-    border-radius: 50%; /* circular */
+    border: 2px solid #042698; /* Dark blue border */
+    border-radius: 50%; /* Circular */
     background: white; 
 }
 
 /* Change style when checkbox is checked */
 input[type="checkbox"]:checked + label:before {
-    background-color: #0051B3; 
-    border-color: #0051B3; 
+    background-color: #0051B3; /* Dark blue background when checked */
+    border-color: #0051B3; /* Keep border color dark blue */
 }
 
 /* Style for checked items */
