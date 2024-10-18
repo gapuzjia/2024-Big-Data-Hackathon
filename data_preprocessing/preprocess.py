@@ -24,6 +24,7 @@ import csv
 # df.to_csv('../testing_app/Libraries.csv', index=False)
 
 # #PARKS
+
 # df = pd.read_csv('parks_datasd.csv')
 # df = df.drop(columns='gis_acres')
 # df = df.drop(columns='owner')
@@ -57,6 +58,7 @@ import csv
 
 
 # #BIKE ROUTES
+# df = pd.read_csv('parks_datasd.csv')
 # df = pd.read_csv('bike_routes_datasd.csv')
 # df = df.drop(columns='class')
 # df = df.drop(columns='district')
@@ -151,22 +153,19 @@ import csv
 
 #PREPROCESS EVENTS DATA----------------------------
 # Your Eventbrite API Key
-API_KEY = 'RBDE3E4J5R4CDLRVVT45'
-API_URL = 'https://www.eventbriteapi.com/v3/events/search/'
+# API_KEY = 'RBDE3E4J5R4CDLRVVT45'
+# API_URL = 'https://www.eventbriteapi.com/v3/events/search/'
 
-# Parameters for the Eventbrite API query
-params = {
-    'location.address': 'San Diego, CA',
-    'location.within': '25km',
-    'categories': '109',  # Category 109 typically includes "Outdoors & Recreation" events
-    'start_date.range_start': datetime.now().isoformat(),  # Start from today's date
-    'start_date.range_end': '2024-11-30T23:59:59',  # Up to the end of November
-    'token': API_KEY
-}
+# # Parameters for the Eventbrite API query
+# params = {
+#     'location.address': 'San Diego, CA',
+#     'location.within': '25km',
+#     'categories': '109',  # Category 109 typically includes "Outdoors & Recreation" events
+#     'start_date.range_start': datetime.now().isoformat(),  # Start from today's date
+#     'start_date.range_end': '2024-11-30T23:59:59',  # Up to the end of November
+#     'token': API_KEY
+# }
 
-import requests
-import csv
-from datetime import datetime
 
 # # Your Eventbrite API Key
 # API_KEY =   # Replace with your actual API key
@@ -219,29 +218,115 @@ from datetime import datetime
 
 
     # Your Eventbrite API Key
-API_KEY = 'your_eventbrite_api_key'  # Replace with your actual API key
-API_URL = 'https://www.eventbriteapi.com/v3/events/search/'
+# API_KEY = 'your_eventbrite_api_key'  # Replace with your actual API key
+# API_URL = 'https://www.eventbriteapi.com/v3/events/search/'
 
-# Parameters for the Eventbrite API query (simplified)
-params = {
-    'location.address': 'San Diego',
-    'token': API_KEY
-}
+# # Parameters for the Eventbrite API query (simplified)
+# params = {
+#     'location.address': 'San Diego',
+#     'token': API_KEY
+# }
 
-# Set headers with API key
-headers = {
-    'Authorization': f'Bearer {API_KEY}',
-}
+# # Set headers with API key
+# headers = {
+#     'Authorization': f'Bearer {API_KEY}',
+# }
 
-# Make the request to the Eventbrite API
-response = requests.get(API_URL, params=params, headers=headers)
+# # Make the request to the Eventbrite API
+# response = requests.get(API_URL, params=params, headers=headers)
 
-# Check if the request was successful
-if response.status_code == 200:
-    data = response.json()
-    outdoor_events = data.get('events', [])
-    print(f"Found {len(outdoor_events)} outdoor events.")
-else:
-    # Output the error details for debugging
-    print(f"Error: Unable to fetch data from Eventbrite API (Status Code: {response.status_code})")
-    print(response.json())  # Print the response content for more details
+# # Check if the request was successful
+# if response.status_code == 200:
+#     data = response.json()
+#     outdoor_events = data.get('events', [])
+#     print(f"Found {len(outdoor_events)} outdoor events.")
+# else:
+#     # Output the error details for debugging
+#     print(f"Error: Unable to fetch data from Eventbrite API (Status Code: {response.status_code})")
+#     print(response.json())  # Print the response content for more details
+
+
+import pandas as pd
+from geopy.geocoders import Nominatim
+import folium
+import time
+
+# Initialize the Nominatim geocoder
+geolocator = Nominatim(user_agent="geoapiExercises")
+
+
+#df1 = pd.read_csv('Restaurants.csv')
+df2 = pd.read_csv('rec_centers_datasd.csv')
+df3 = pd.read_csv('LocalLibraryLocations.csv')
+df4 = pd.read_csv('parks_datasd.csv')
+
+# Prepare a list of DataFrames and their corresponding address column names
+dfs = [
+    #{'df': df1, 'address_col': 'Address', 'name' : 'name'},
+    {'df': df2, 'address_col': 'address', 'name' : 'name'},
+    {'df': df3, 'address_col': 'address', 'name' : 'name'},
+    {'df': df4, 'address_col': 'address', 'name' : 'name'},
+    
+]
+
+import pandas as pd
+import googlemaps
+import folium
+import time
+
+# Replace 'YOUR_API_KEY' with your actual Google Geocoding API key
+gmaps = googlemaps.Client(key='AIzaSyBvK-9gnEPbxgcqAJTYKby_DVRrap9yr9o')
+
+# Prepare a list of DataFrames
+dfs = [df2, df3, df4]
+
+# List of marker colors to assign to each DataFrame dynamically
+marker_colors = ['red', 'blue', 'green', 'purple', 'orange']
+
+# Function to geocode an address using the Google API and return latitude and longitude
+def geocode_address_google(address):
+    print(f"Geocoding: {address}")
+    try:
+        geocode_result = gmaps.geocode(address)
+        if geocode_result:
+            lat = geocode_result[0]['geometry']['location']['lat']
+            lon = geocode_result[0]['geometry']['location']['lng']
+            print(f"Success: {address} -> ({lat}, {lon})")
+            return lat, lon
+        else:
+            print(f"Failed to geocode: {address}")
+            return None, None
+    except Exception as e:
+        print(f"Error: {address} - {e}")
+        return None, None
+
+# Create a Folium map, centered at an approximate midpoint
+my_map = folium.Map(location=[20, 0], zoom_start=2)
+
+# Iterate over each DataFrame, assign a color, and geocode addresses to place pins on the map
+for i, df in enumerate(dfs):
+    color = marker_colors[i % len(marker_colors)]  # Assign a color from the list
+
+    print(f"\nProcessing DataFrame {i+1} with color: {color}")
+    
+    for index, row in df.iterrows():
+        address = row['address']
+        name = row['name']
+        lat, lon = geocode_address_google(address)
+
+        # Only place a pin if geocoding was successful
+        if lat and lon:
+            folium.Marker(
+                [lat, lon], 
+                popup=name,   # Display the name as popup
+                icon=folium.Icon(color=color)  # Use the dynamically assigned color
+            ).add_to(my_map)
+
+        # Add a delay to avoid overwhelming the API (optional, depending on your usage limit)
+        time.sleep(1)
+
+# Save the map to an HTML file
+my_map.save('color_coded_map_google.html')
+
+# Inform user of completion
+print("Map has been saved as 'color_coded_map_google.html'.")

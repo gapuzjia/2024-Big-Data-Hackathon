@@ -1,4 +1,4 @@
-"objectid","name","alias","gis_acres","park_type","location","owner","source_id","source","source_dt","src_notes"
+"objectid","2name","name","gis_acres","park_type","address","owner","source_id","source","source_dt","src_notes"
 "1","South Carlsbad SB","South Carlsbad State Beach","115.89587845","State","","State Parks","652","State Parks","0416"," "
 "2","Torrey Pines SB","Torrey Pines State Beach","67.29430932","State","","State Parks","631","State Parks","0416"," "
 "3","Ruocco Park","Ruocco Park","3.31252600","Local","585 Harbor Ln, San Diego. California","SDUPD","","SDUPD","0416"," "

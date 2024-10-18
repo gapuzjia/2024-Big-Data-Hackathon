@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rewards</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Rewards</title>
 </head>
 <body>
-    <div id="menu_bar">
-        <a href="/">
-            <button type="button">Home</button>
-        </a>
-        <a href="/resources">
-            <button type="button">Resources</button>
-        </a>
-        <a href="/rewards">
-            <button type="button">Rewards</button>
-        </a>
-        <button class="help" type="button">?</button>
-    </div>
+    <main>
+        <div id="menu_bar">
+            <a href="/">
+                <button type="button" class="home-button">
+                    <img src="/static/images/logo.png" alt="Home Logo" class="home-logo">
+                </button>
+            </a>
+            <a href="/resources">
+                <button type="button">Resources</button>
+            </a>
+            <a href="/rewards">
+               <button type="button">Rewards</button>
+            </a>
+            <a href="/help">
+               <button type="button" class="help">?</button>
+            </a>
+        </div>
+    </main>
     
     <div id="container">
         <div class="wheel-container">
