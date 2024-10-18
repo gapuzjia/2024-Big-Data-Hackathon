@@ -197,8 +197,21 @@ document.addEventListener("DOMContentLoaded", () =>
         {
             const winningIndex = Math.floor((startAngle % (2 * Math.PI)) / arcSize);
             const selectedPrize = prizeList[prizeList.length - 1 - winningIndex];
-            alert(`Congratulations! You won: ${selectedPrize}`);
+            popUp(`Congratulations! you have won: ${selectedPrize}`);
+            //Event listener for closing the popup
+            document.getElementById("closePopup").addEventListener("click", function()
+            {
+                document.getElementById("popup").style.display = "none";
+            });
+            //alert(`Congratulations! You won: ${selectedPrize}`);
         }
+
+        function popUp(prize)
+        {
+            document.getElementById("prizeMessage").innerText = prize;
+            document.getElementById("popup").style.display = "block"
+        }
+
 
         // Event listener to start the spin when the button is clicked (rewards page)
         if (rewardsSpinButton) 
