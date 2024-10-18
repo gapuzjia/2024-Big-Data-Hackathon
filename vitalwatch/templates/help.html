@@ -14,7 +14,9 @@
     <main>
         <div id="menu_bar">
             <a href="/">
-                <button type="button">Home</button>
+                <button type="button" class="home-button">
+                    <img src="/static/images/logo.png" alt="Home Logo" class="home-logo">
+                </button>
             </a>
             <a href="/resources">
                 <button type="button">Resources</button>
@@ -34,7 +36,7 @@
     <!-- Flex container for logo and description -->
     <div id="help-container">
         <!-- Logo -->
-        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" style="width: 50%; height: auto;">
+        <!-- <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" style="width: 25%; height: auto;"> -->
 
         <!-- Description section -->
         <section id="description" class="monsFont">

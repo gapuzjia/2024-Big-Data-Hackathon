@@ -61,7 +61,8 @@ body
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    width: 150px;
+    width: 200px;
+    height: 50px;
     background-color: #D4FFFD; /* Light blue background */
     color: #042698; /* Dark blue text */
     border: 4px double #09238a;
@@ -72,6 +73,54 @@ body
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effects */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Shadow */
 }
+/* Style for the home button */
+/* Centering the logo within the home button */
+.home-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the logo horizontally */
+}
+
+/* Style for the logo */
+.home-logo {
+    width: 40px; 
+    height: 40px; 
+    object-fit: contain;
+}
+
+/* Style for all menu buttons */
+#menu_bar button {
+    background-color: #D4FFFD; 
+    border: 1px solid #09238a;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#menu_bar button {
+    background-color: #D4FFFD; 
+    border: 1px solid #09238a;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#menu_bar button:hover {
+    background-color: #97dbff; 
+}
+
+
 
 /* help button */
 #menu_bar .help 
