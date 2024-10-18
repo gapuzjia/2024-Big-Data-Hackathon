@@ -265,7 +265,7 @@ dfs = [
     #{'df': df1, 'address_col': 'Address', 'name' : 'name'},
     {'df': df2, 'address_col': 'address', 'name' : 'name'},
     {'df': df3, 'address_col': 'address', 'name' : 'name'},
-    {'df': df4, 'address_col': 'location', 'name' : 'name'},
+    {'df': df4, 'address_col': 'address', 'name' : 'name'},
     
 ]
 
