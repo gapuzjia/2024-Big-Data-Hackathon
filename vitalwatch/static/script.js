@@ -1,9 +1,3 @@
-const video = document.getElementById("chillMusic"); 
-
-//set variable for pausing & playing video
-let playVideo = () => video.play();
-let pauseVideo = () => video.pause();
-
 document.addEventListener("DOMContentLoaded", () => 
 {
     // Initialize the points display and set default points to 20 (home page)
@@ -105,36 +99,14 @@ document.addEventListener("DOMContentLoaded", () =>
         let spinAngle = 0;
         let spinning = false;
 
-        // Function to wrap and center text within a canvas segment, centered around the radius
-        function wrapText(context, text, x, y, maxWidth, lineHeight) {
-            let words = text.split(' ');
-            let line = '';
-
-            for (let n = 0; n < words.length; n++) {
-                let testLine = line + words[n] + ' ';
-                let metrics = context.measureText(testLine);
-                let testWidth = metrics.width;
-
-                // If the text exceeds the max width, wrap to a new line
-                if (testWidth > maxWidth && n > 0) {
-                    context.fillText(line, x - testWidth / 2, y); // Center the line horizontally
-                    line = words[n] + ' ';
-                    y += lineHeight;
-                } else {
-                    line = testLine;
-                }
-            }
-
-            // Center the last line
-            context.fillText(line, x - context.measureText(line).width / 2, y);
-        }
-
         // Function to draw the wheel with prizes (rewards page)
-        function drawWheel() {
+        function drawWheel() 
+        {
             if (!ctx) return; // If canvas or context is not available, exit the function
             ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas before drawing
 
-            for (let i = 0; i < prizeList.length; i++) {
+            for (let i = 0; i < prizeList.length; i++) 
+            {
                 const angle = startAngle + i * arcSize;
                 ctx.beginPath();
                 ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, angle, angle + arcSize);
@@ -148,20 +120,17 @@ document.addEventListener("DOMContentLoaded", () =>
                 ctx.translate(canvas.width / 2, canvas.height / 2);
                 ctx.rotate(angle + arcSize / 2);
 
+                // Calculate text width
                 ctx.font = '16px Arial';
+                const textWidth = ctx.measureText(prizeList[i]).width;
+
+                // Adjust the position based on text width
+                const textXPosition = canvas.width / 4 - textWidth / 2; // Center the text
                 ctx.fillStyle = 'black';
-
-                // Adjust the position to center along the radius
-                const maxTextWidth = canvas.width / 3; // Adjust as needed
-                const lineHeight = 18; // Adjust as needed
-                const radiusPosition = canvas.width / 3; // Center along the radius (1/3rd of the wheel radius)
-
-                wrapText(ctx, prizeList[i], radiusPosition, 0, maxTextWidth, lineHeight);
-
+                ctx.fillText(prizeList[i], textXPosition, 0);
                 ctx.restore();
             }
         }
-
 
         // Function to spin the wheel (rewards page)
         function spinWheel() 
@@ -211,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () =>
             document.getElementById("prizeMessage").innerText = prize;
             document.getElementById("popup").style.display = "block"
         }
+
 
 
         // Event listener to start the spin when the button is clicked (rewards page)
