@@ -29,6 +29,8 @@ body
     height: 74px;
     border-width: 37px 0px 37px 74px;
     border-color: transparent transparent transparent #202020;
+    padding-right: 100px;
+
 }
 #pauseButton
 {
@@ -841,12 +843,17 @@ h3, h4
     font-size: 18px;
 }
 
-#sponsorImgs
-{
-    justify-content: space-around;
+#sponsorImgs {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: space-around; /* spacing  */
+    align-items: center; 
+    margin: 50px;
+    gap: 50px;
+    padding: 20px;
 }
+
+
 
 /*
     Add colors here
