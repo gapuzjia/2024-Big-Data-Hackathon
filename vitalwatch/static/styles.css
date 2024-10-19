@@ -179,6 +179,7 @@ body
 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-size: 1.5rem;
     font-weight: 700;
     font-style: normal;
 }
@@ -560,7 +561,8 @@ h1
     font-family: "Montserrat", sans-serif;
     text-align: center;
     font-optical-sizing: auto;
-    font-weight: 650;
+    font-size: 1.65rem;
+    font-weight: 700;
     font-style: normal;
     color: #042698
 }
@@ -863,6 +865,7 @@ h3, h4
     height: auto;              /* Maintain aspect ratio */
     z-index: 10;               /* Keep it on top of other elements */
 }
+
 
 
 
