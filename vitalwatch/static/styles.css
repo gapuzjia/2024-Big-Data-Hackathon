@@ -350,7 +350,8 @@ tr:hover
 .featured-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 550;
-    min-height: 30px; /* Set a minimum height to keep title heights uniform */
+    min-height: 30px;
+    color: white; /* Set a minimum height to keep title heights uniform */
 }
 
 
@@ -572,6 +573,8 @@ h3, h4
     font-weight: 500;
     text-align: center; /* Center the text within the column */
     margin: 20px 0; /* Add some margin for spacing */
+    padding: 10px;
+    color: #042698
 }
 
 
@@ -751,7 +754,7 @@ h3, h4
 .search-button {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    background-color: #007BFF; /* Button background color */
+    background-color: #0052b3; /* Button background color */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -850,6 +853,17 @@ h3, h4
     margin: 50px;
     gap: 50px;
     padding: 20px;
+}
+
+#marker
+{
+    position: absolute;        /* Keep it positioned absolutely in the container */
+    top: -16.23rem;                 /* Set the image 20px from the top of the container */
+    left: -31.5rem;                /* Set the image 30px from the left of the container */
+    transform: rotate(-90deg) scale(0.02); /* Rotate left by 30 degrees and shrink to half size */
+    width: auto;               /* Optional: maintain aspect ratio based on natural width */
+    height: auto;              /* Maintain aspect ratio */
+    z-index: 10;               /* Keep it on top of other elements */
 }
 
 
