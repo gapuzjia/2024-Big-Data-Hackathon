@@ -227,4 +227,165 @@ document.addEventListener("DOMContentLoaded", () =>
         {
             drawWheel();
         }
+        document.addEventListener("DOMContentLoaded", () => {
+            // Confetti defaults
+            const defaults = {
+                spread: 360,
+                ticks: 50,
+                gravity: 0,
+                decay: 0.94,
+                startVelocity: 30,
+                colors: ['#FFE400', '#FFBD00', '#E89400', '#FFCA6C', '#FDFFB8']
+            };
+        
+            // Function to trigger the confetti effect
+            function shoot() {
+                confetti({
+                    ...defaults,
+                    particleCount: 40,
+                    scalar: 1.2,
+                    shapes: ['star']
+                });
+        
+                confetti({
+                    ...defaults,
+                    particleCount: 10,
+                    scalar: 0.75,
+                    shapes: ['circle']
+                });
+            }
+        
+            // Spin button for the rewards page
+            const rewardsSpinButton = document.getElementById('spinButton'); 
+            const pointsDisplay = document.getElementById('points'); // Points display for the rewards page
+            let currentPoints = parseInt(pointsDisplay?.textContent) || 20; // Assume points carry over from the home page
+            const requiredPoints = 10;
+        
+            // Parse the prize data from the script tag in the HTML (rewards page)
+            const prizeDataElement = document.getElementById('prize-data');
+            let prizeList = [];
+            if (prizeDataElement) {
+                prizeList = JSON.parse(prizeDataElement.textContent);
+            }
+        
+            // Set up the canvas and variables for the spinning wheel (rewards page)
+            const canvas = document.getElementById('wheelCanvas');
+            const ctx = canvas ? canvas.getContext('2d') : null;
+            let arcSize = prizeList.length > 0 ? (2 * Math.PI) / prizeList.length : 0;
+            let startAngle = 0;
+            let spinAngle = 0;
+            let spinning = false;
+        
+            // Function to draw the wheel with prizes (rewards page)
+            function drawWheel() {
+                if (!ctx) return; // If canvas or context is not available, exit the function
+                ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas before drawing
+        
+                for (let i = 0; i < prizeList.length; i++) {
+                    const angle = startAngle + i * arcSize;
+                    ctx.beginPath();
+                    ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, angle, angle + arcSize);
+                    ctx.lineTo(canvas.width / 2, canvas.height / 2);
+                    ctx.fillStyle = i % 2 === 0 ? '#C8B5E2' : '#B193DC';
+                    ctx.fill();
+        
+                    // Draw the prize text on the wheel
+                    ctx.save();
+                    ctx.translate(canvas.width / 2, canvas.height / 2);
+                    ctx.rotate(angle + arcSize / 2);
+                    ctx.font = '16px Arial';
+                    ctx.fillStyle = 'black';
+        
+                    // Adjust the position to center along the radius
+                    const maxTextWidth = canvas.width / 3;
+                    const lineHeight = 18;
+                    const radiusPosition = canvas.width / 3;
+        
+                    wrapText(ctx, prizeList[i], radiusPosition, 0, maxTextWidth, lineHeight);
+        
+                    ctx.restore();
+                }
+            }
+        
+            // Function to wrap and center text within a canvas segment
+            function wrapText(context, text, x, y, maxWidth, lineHeight) {
+                let words = text.split(' ');
+                let line = '';
+        
+                for (let n = 0; n < words.length; n++) {
+                    let testLine = line + words[n] + ' ';
+                    let metrics = context.measureText(testLine);
+                    let testWidth = metrics.width;
+        
+                    // If the text exceeds the max width, wrap to a new line
+                    if (testWidth > maxWidth && n > 0) {
+                        context.fillText(line, x - testWidth / 2, y); // Center the line horizontally
+                        line = words[n] + ' ';
+                        y += lineHeight;
+                    } else {
+                        line = testLine;
+                    }
+                }
+        
+                // Center the last line
+                context.fillText(line, x - context.measureText(line).width / 2, y);
+            }
+        
+            // Function to spin the wheel (rewards page)
+            function spinWheel() {
+                if (!spinning && currentPoints >= requiredPoints) {
+                    spinning = true;
+                    spinAngle = Math.random() * 2000 + 1000; // Random spin angle between 1000 and 3000 degrees
+                    animateSpin();
+                }
+            }
+        
+            // Function to animate the spinning of the wheel (rewards page)
+            function animateSpin() {
+                spinAngle *= 0.97; // Slow down the spin over time
+                startAngle += spinAngle * Math.PI / 180; // Rotate the wheel
+                drawWheel();
+        
+                if (spinAngle > 0.1) {
+                    requestAnimationFrame(animateSpin);
+                } else {
+                    spinning = false;
+                    determinePrize();
+                }
+            }
+        
+            // Function to determine which prize the user has won (rewards page)
+            function determinePrize() {
+                const winningIndex = Math.floor((startAngle % (2 * Math.PI)) / arcSize);
+                const selectedPrize = prizeList[prizeList.length - 1 - winningIndex];
+                
+                // Show the pop-up with the winning message
+                popUp(`Congratulations! you have won: ${selectedPrize}`);
+                
+                // Trigger the confetti effect when the user wins
+                shoot();
+                
+                // Event listener for closing the popup
+                document.getElementById("closePopup").addEventListener("click", function() {
+                    document.getElementById("popup").style.display = "none";
+                });
+            }
+        
+            // Pop-up function to show the prize message
+            function popUp(prize) {
+                document.getElementById("prizeMessage").innerText = prize;
+                document.getElementById("popup").style.display = "block";
+            }
+        
+            // Event listener to start the spin when the button is clicked (rewards page)
+            if (rewardsSpinButton) {
+                rewardsSpinButton.addEventListener('click', spinWheel);
+            }
+        
+            // Initial draw of the wheel when the page loads (rewards page)
+            if (ctx) {
+                drawWheel();
+            }
+        });
+        
 });
