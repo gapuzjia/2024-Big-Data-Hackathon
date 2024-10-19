@@ -346,7 +346,8 @@ tr:hover
 .featured-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 550;
-    min-height: 30px; /* Set a minimum height to keep title heights uniform */
+    min-height: 30px;
+    color: white; /* Set a minimum height to keep title heights uniform */
 }
 
 
