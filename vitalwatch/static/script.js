@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 ctx.save();
                 ctx.translate(canvas.width / 2, canvas.height / 2);
                 ctx.rotate(angle + arcSize / 2);
-                
+
                 ctx.font = '16px Montserrat';
                 ctx.fillStyle = 'black';
                 
