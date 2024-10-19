@@ -856,8 +856,8 @@ h3, h4
 #marker
 {
     position: absolute;        /* Keep it positioned absolutely in the container */
-    top: -261px;                 /* Set the image 20px from the top of the container */
-    left: -503px;                /* Set the image 30px from the left of the container */
+    top: -16.23rem;                 /* Set the image 20px from the top of the container */
+    left: -31.5rem;                /* Set the image 30px from the left of the container */
     transform: rotate(-90deg) scale(0.02); /* Rotate left by 30 degrees and shrink to half size */
     width: auto;               /* Optional: maintain aspect ratio based on natural width */
     height: auto;              /* Maintain aspect ratio */
