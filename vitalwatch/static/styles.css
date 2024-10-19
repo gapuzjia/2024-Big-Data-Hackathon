@@ -600,6 +600,7 @@ h3, h4
     background: linear-gradient(135deg, #007BFF, #0056b3); /* Gradient for buttons */
     color: white; /* White text color */
     font-size: 30px; /* Larger font size */
+    font-weight: 500;
     text-decoration: none; /* Remove underline */
     border-radius: 10px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.2s; /* Smooth color transition and scale effect */
@@ -835,11 +836,14 @@ h3, h4
     font-weight: bold;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     font-size: 18px;
-    
-
 }
 
-
+#sponsorImgs
+{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
 
 /*
     Add colors here
