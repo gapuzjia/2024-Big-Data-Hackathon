@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () =>
                 ctx.translate(canvas.width / 2, canvas.height / 2);
                 ctx.rotate(angle + arcSize / 2);
 
-                ctx.font = '16px Arial';
+                ctx.font = '16px Montserrat';
                 ctx.fillStyle = 'black';
 
                 // Adjust the position to center along the radius
