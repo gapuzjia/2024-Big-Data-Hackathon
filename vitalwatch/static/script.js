@@ -105,19 +105,17 @@ document.addEventListener("DOMContentLoaded", () =>
         let spinAngle = 0;
         let spinning = false;
 
-        //Drawing Marker for the wheel
-        //function drawMarker()
-
+        
         // Function to wrap and center text within a canvas segment, centered around the radius
         function wrapText(context, text, x, y, maxWidth, lineHeight) {
             let words = text.split(' ');
             let line = '';
-
+            
             for (let n = 0; n < words.length; n++) {
                 let testLine = line + words[n] + ' ';
                 let metrics = context.measureText(testLine);
                 let testWidth = metrics.width;
-
+                
                 // If the text exceeds the max width, wrap to a new line
                 if (testWidth > maxWidth && n > 0) {
                     context.fillText(line, x - testWidth / 2, y); // Center the line horizontally
@@ -127,16 +125,18 @@ document.addEventListener("DOMContentLoaded", () =>
                     line = testLine;
                 }
             }
-
+            
             // Center the last line
             context.fillText(line, x - context.measureText(line).width / 2, y);
         }
-
+        
+        
         // Function to draw the wheel with prizes (rewards page)
         function drawWheel() {
             if (!ctx) return; // If canvas or context is not available, exit the function
             ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas before drawing
-
+            
+            
             for (let i = 0; i < prizeList.length; i++) {
                 const angle = startAngle + i * arcSize;
                 ctx.beginPath();
@@ -145,22 +145,22 @@ document.addEventListener("DOMContentLoaded", () =>
                 ctx.fillStyle = i % 2 === 0 ? '#C8B5E2' : '#B193DC';
                 ctx.fill();
                 //ctx.stroke();
-
+                
                 // Draw the prize text on the wheel
                 ctx.save();
                 ctx.translate(canvas.width / 2, canvas.height / 2);
                 ctx.rotate(angle + arcSize / 2);
-
+                
                 ctx.font = '16px Arial';
                 ctx.fillStyle = 'black';
-
+                
                 // Adjust the position to center along the radius
                 const maxTextWidth = canvas.width / 3; // Adjust as needed
                 const lineHeight = 18; // Adjust as needed
                 const radiusPosition = canvas.width / 3; // Center along the radius (1/3rd of the wheel radius)
-
+                
                 wrapText(ctx, prizeList[i], radiusPosition, 0, maxTextWidth, lineHeight);
-
+                
                 ctx.restore();
             }
         }
