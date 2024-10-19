@@ -10,7 +10,8 @@ body
 #musicPlayer
 {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    padding-top: 35px;
 }
 #playButton
 {

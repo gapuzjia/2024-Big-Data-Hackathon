@@ -105,6 +105,9 @@ document.addEventListener("DOMContentLoaded", () =>
         let spinAngle = 0;
         let spinning = false;
 
+        //Drawing Marker for the wheel
+        //function drawMarker()
+
         // Function to wrap and center text within a canvas segment, centered around the radius
         function wrapText(context, text, x, y, maxWidth, lineHeight) {
             let words = text.split(' ');
@@ -139,9 +142,9 @@ document.addEventListener("DOMContentLoaded", () =>
                 ctx.beginPath();
                 ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, angle, angle + arcSize);
                 ctx.lineTo(canvas.width / 2, canvas.height / 2);
-                ctx.fillStyle = i % 2 === 0 ? '#FFCC00' : '#FF9900';
+                ctx.fillStyle = i % 2 === 0 ? '#C8B5E2' : '#B193DC';
                 ctx.fill();
-                ctx.stroke();
+                //ctx.stroke();
 
                 // Draw the prize text on the wheel
                 ctx.save();

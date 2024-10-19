@@ -114,6 +114,15 @@
 
         <div id="last">
             <div id="lowerPart">
+                <div>
+                    <!-- Search bar for zip code -->
+                    <div class="search-container">
+                        <form action="/search" method="POST">
+                            <input type="text" class="search-input" name="query" placeholder="Enter a Zip Code" required>
+                            <button type="submit" class="search-button">Go!</button>
+                        </form>
+                    </div>
+                </div>
                 <div id="musicPlayer">
                     <!--Music with pause-play-reset functions-->
                     <button onclick="pauseVideo()" type="button" class"musicButtons"> 
@@ -128,21 +137,14 @@
                 </div>
             
             </div>
-            <div>
-                <!-- Search bar for zip code -->
-                <div class="search-container">
-                    <form action="/search" method="POST">
-                        <input type="text" class="search-input" name="query" placeholder="Enter a Zip Code" required>
-                        <button type="submit" class="search-button">Go!</button>
-                    </form>
-                </div>
-            </div>
+            
             <div>
                 <!-- Map here -->
                 <div id="map" style="width: 1000; height: 400px;">
                     <iframe src="/map" width="1000" height="400px"></iframe>
                 </div>
             </div>
+        </div>
         </div>
    </main>
    <script src="static/script.js"></script> <!-- Ensure the script is linked properly -->
