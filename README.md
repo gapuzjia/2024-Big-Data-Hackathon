@@ -2,7 +2,7 @@
 VitalWatch is a web application designed to gamify a healthy lifestyle. Developed for the Big Data Hackathon San Diego, it provides engaging outdoor activities and a daily lifestyle to-do list to encourage users to adopt healthier habits. Users can complete tasks to earn points and unlock rewards through a fun and interactive experience.
 
 ## Features
-**Lifestyle To-Do List:** Each day, users are presented with a list of healthy tasks and activities.
+**Lifestyle To-Do List:** Each day, users are presented with a list of healthy tasks and activities. <br>
 **Outdoor Activities:** Get suggestions for exciting outdoor activities that promote physical and mental well-being.
 **Points System:** Earn points for every task you check off from your daily list.
 **Rewards:** Spin a prize wheel to unlock rewards based on your accumulated points.
